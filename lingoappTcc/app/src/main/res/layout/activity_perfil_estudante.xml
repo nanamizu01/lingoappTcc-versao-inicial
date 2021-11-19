@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco_claro"
+    tools:context=".PerfilEstudanteActivity">
+
+    <FrameLayout
+        android:id="@id/frame_barra_superior1"
+        android:layout_width="411dp"
+        android:layout_height="53dp"
+        android:background="@android:drawable/title_bar"
+        android:backgroundTint="@color/roxo"
+        tools:ignore="MissingConstraints">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/frame_barra_superior2"
+        android:layout_width="435dp"
+        android:layout_height="88dp"
+        android:background="@android:drawable/toast_frame"
+        android:backgroundTint="@color/roxo"
+        android:backgroundTintMode="src_over"
+        android:rotationX="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@id/btn_voltar"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="42dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="@color/roxo"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        app:tint="@color/branco_claro"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        tools:srcCompat="?attr/homeAsUpIndicator" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@id/group_barra_superior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="frame_barra_superior1, frame_barra_superior2,
+            btn_voltar" />
+
+    <TextView
+        android:id="@+id/text_meu_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/josefin_sans_semibold"
+        android:text="MEU PERFIL"
+        android:textAlignment="center"
+        android:textColor="@color/branco_claro"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/frame_barra_superior1" />
+
+    <ImageView
+        android:id="@+id/image_avatar_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="441dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="105dp"
+        android:text="João Silva"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_avatar_perfil"
+        app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="496dp"
+        android:fontFamily="@font/arimo"
+        android:text="joaosilva@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_avatar_perfil"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/laranja1"
+        android:fontFamily="@font/lalezar"
+        android:text="Editar Dados"
+        app:icon="@android:drawable/ic_menu_edit"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_avatar_perfil" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/laranja1"
+        android:fontFamily="@font/lalezar"
+        android:text="Histórico de Atividades"
+        app:icon="@android:drawable/ic_lock_idle_alarm"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="168dp"
+        android:backgroundTint="@color/laranja1"
+        android:fontFamily="@font/lalezar"
+        android:text="Conquistas"
+        app:icon="@android:drawable/btn_star_big_on"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
