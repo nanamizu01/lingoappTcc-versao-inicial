@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/branco_claro"
-    tools:context=".PerfilEstudanteActivity">
+    tools:context=".PerfilProfessorActivity">
 
     <FrameLayout
         android:id="@+id/frame_barra_superior"
@@ -17,20 +17,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
     </FrameLayout>
-
-    <ImageButton
-        android:id="@id/btn_voltar"
-        android:layout_width="50dp"
-        android:layout_height="80dp"
-        android:background="@android:color/transparent"
-        android:rotation="270"
-        android:rotationX="0"
-        android:rotationY="0"
-        android:scaleType="fitCenter"
-        android:src="@drawable/ic_round_expand_less_24"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/branco_claro" />
 
     <TextView
         android:id="@+id/text_meu_perfil_professor"
@@ -52,7 +38,7 @@
         android:id="@+id/group_barra_superior"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:constraint_referenced_ids="btn_voltar, frame_barra_superior,
+        app:constraint_referenced_ids="frame_barra_superior,
         text_meu_perfil_professor" >
     </androidx.constraintlayout.widget.Group>
 
