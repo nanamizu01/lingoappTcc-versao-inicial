@@ -33,7 +33,7 @@
         app:tint="@color/branco_claro" />
 
     <TextView
-        android:id="@+id/text_alterar_dados_estudante"
+        android:id="@+id/text_alterar_dados_professor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -53,11 +53,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:constraint_referenced_ids="btn_voltar, frame_barra_superior,
-        text_alterar_dados_estudante" >
+        text_alterar_dados_professor" >
     </androidx.constraintlayout.widget.Group>
 
     <TextView
-        android:id="@+id/text_nome_estudante"
+        android:id="@+id/text_nome_professor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -90,12 +90,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_nome_estudante" />
+        app:layout_constraintTop_toBottomOf="@+id/text_nome_professor" />
 
 
 
     <TextView
-        android:id="@+id/text_sobrenome_estudante"
+        android:id="@+id/text_sobrenome_professor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -128,10 +128,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_sobrenome_estudante" />
+        app:layout_constraintTop_toBottomOf="@+id/text_sobrenome_professor" />
 
     <TextView
-        android:id="@+id/text_email_estudante"
+        android:id="@+id/text_email_professor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -164,10 +164,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_email_estudante" />
+        app:layout_constraintTop_toBottomOf="@+id/text_email_professor" />
 
     <TextView
-        android:id="@+id/text_senha_estudante"
+        android:id="@+id/text_senha_professor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -200,7 +200,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_senha_estudante" />
+        app:layout_constraintTop_toBottomOf="@+id/text_senha_professor" />
 
     <Button
         android:id="@+id/btn_cancelar"
@@ -250,5 +250,4 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

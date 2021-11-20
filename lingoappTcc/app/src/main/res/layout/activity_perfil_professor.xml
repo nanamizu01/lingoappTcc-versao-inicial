@@ -33,7 +33,7 @@
         app:tint="@color/branco_claro" />
 
     <TextView
-        android:id="@+id/text_meu_perfil_estudante"
+        android:id="@+id/text_meu_perfil_professor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:constraint_referenced_ids="btn_voltar, frame_barra_superior,
-        text_meu_perfil_estudante" >
+        text_meu_perfil_professor" >
     </androidx.constraintlayout.widget.Group>
 
     <ImageView
@@ -67,7 +67,7 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/text_nome_estudante"
+        android:id="@+id/text_nome_professor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="19dp"
@@ -82,7 +82,7 @@
         app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior" />
 
     <TextView
-        android:id="@+id/text_email_estudante"
+        android:id="@+id/text_email_professor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="19dp"
@@ -94,7 +94,23 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/image_avatar_perfil"
-        app:layout_constraintTop_toBottomOf="@+id/text_nome_estudante" />
+        app:layout_constraintTop_toBottomOf="@+id/text_nome_professor" />
+
+    <TextView
+        android:id="@+id/text_siape_professor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="65dp"
+        android:fontFamily="@font/arimo"
+        android:text="SIAPE: 12345678"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/image_avatar_perfil"
+        app:layout_constraintTop_toBottomOf="@+id/text_email_professor" />
 
     <Button
         android:id="@+id/btn_editar_dados"
@@ -103,49 +119,15 @@
         android:layout_marginStart="114dp"
         android:layout_marginTop="140dp"
         android:layout_marginEnd="123dp"
+        android:layout_marginBottom="280dp"
         android:backgroundTint="@color/laranja1"
         android:fontFamily="@font/lalezar"
         android:text="Editar Dados"
         app:icon="@android:drawable/ic_menu_edit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_avatar_perfil" />
-
-    <Button
-        android:id="@+id/btn_historico_atividades"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="85dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="86dp"
-        android:backgroundTint="@color/laranja1"
-        android:fontFamily="@font/lalezar"
-        android:text="Histórico de Atividades"
-        app:icon="@android:drawable/ic_lock_idle_alarm"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_editar_dados" />
-
-    <Button
-        android:id="@+id/btn_conquistas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="125dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="125dp"
-        android:layout_marginBottom="148dp"
-        android:backgroundTint="@color/laranja1"
-        android:fontFamily="@font/lalezar"
-        android:text="Conquistas"
-        app:icon="@android:drawable/btn_star_big_on"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_historico_atividades"
-        app:layout_constraintVertical_bias="0.0" />
-
+        app:layout_constraintTop_toBottomOf="@+id/image_avatar_perfil" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
