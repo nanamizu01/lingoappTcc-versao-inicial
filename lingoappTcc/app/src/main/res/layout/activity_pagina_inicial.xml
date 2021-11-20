@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/roxo"
+    tools:context=".PaginaInicialActivity">
+
+    <ImageView
+        android:id="@+id/image_logo_lingoapp"
+        android:layout_width="150dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/title_nome_lingoapp"
+        android:src="@drawable/lingoapp_logo"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_titulo_lingoapp"
+        android:layout_width="186dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/title_nome_lingoapp"
+        android:textAlignment="center"
+        android:textColor="@color/branco_claro"
+        android:textSize="42sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_logo_lingoapp" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group_tela_inicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="image_logo_lingoapp,text_titulo_lingoapp,
+            btn_login_estudante,btn_login_professor, text_cadastrar, text_sou_novo_quero_me" />
+
+    <Button
+        android:id="@+id/btn_login_estudante"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="310dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/branco_escuro"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/action_entrar_estudante"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/roxo"
+        android:textSize="22sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_titulo_lingoapp" />
+
+    <Button
+        android:id="@+id/btn_login_professor"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="310dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/branco_escuro"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/action_entrar_professor"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/roxo"
+        android:textSize="22sp"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login_estudante" />
+
+    <TextView
+        android:id="@+id/text_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/josefin_sans_semibold"
+        android:onClick="onClick"
+        android:text="@string/action_cadastrar"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/branco_claro"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/text_sou_novo_quero_me"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login_professor"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/text_sou_novo_quero_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/josefin_sans_semibold"
+        android:text="@string/msg_sou_novo_quero_me"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/branco_claro"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/text_cadastrar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login_professor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
