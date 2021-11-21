@@ -4,7 +4,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <solid android:color="@color/roxo"></solid>
-    <corners android:bottomLeftRadius="5dp"></corners>
-    <corners android:bottomRightRadius="5dp"></corners>
+    <corners
+        android:bottomLeftRadius="5dp"
+        android:bottomRightRadius="5dp"></corners>
 
 </shape>
