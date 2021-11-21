@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/branco_claro"
-    tools:context=".ConfirmarEmailActivity">
+    tools:context=".atividades.cadastroelogin.ConfirmarEmailActivity">
 
     <FrameLayout
         android:id="@+id/frame_barra_superior"

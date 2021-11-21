@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/branco_claro"
-    tools:context=".CadastroEstudante1Activity">
+    tools:context=".atividades.cadastroelogin.CadastroEstudante1Activity">
 
     <FrameLayout
         android:id="@+id/frame_barra_superior"
@@ -22,7 +22,7 @@
         android:id="@id/btn_voltar"
         android:layout_width="50dp"
         android:layout_height="80dp"
-        android:background=""
+        android:background="@android:color/transparent"
         android:rotation="270"
         android:rotationX="0"
         android:rotationY="0"

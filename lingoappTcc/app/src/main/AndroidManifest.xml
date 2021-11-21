@@ -9,29 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lingoapp1">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".atividades.turmas.AbaTurmasEstudanteActivity"
             android:exported="true" />
         <activity
-            android:name=".RecuperarSenhaActivity"
+            android:name=".atividades.cadastroelogin.RecuperarSenhaActivity"
             android:exported="true" />
         <activity
-            android:name=".LoginProfessorActivity"
+            android:name=".atividades.cadastroelogin.LoginProfessorActivity"
             android:exported="true" />
         <activity
-            android:name=".LoginEstudanteActivity"
+            android:name=".atividades.cadastroelogin.LoginEstudanteActivity"
             android:exported="true" />
         <activity
-            android:name=".ConfirmarEmailActivity"
+            android:name=".atividades.cadastroelogin.ConfirmarEmailActivity"
             android:exported="true" />
         <activity
-            android:name=".CadastroProfessor2Activity"
+            android:name=".atividades.cadastroelogin.CadastroProfessor2Activity"
             android:exported="true" />
         <activity
-            android:name=".CadastroEstudante2Activity"
+            android:name=".atividades.cadastroelogin.CadastroEstudante2Activity"
             android:exported="true" />
         <activity
-            android:name=".PaginaInicialActivity"
+            android:name=".atividades.cadastroelogin.PaginaInicialActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,13 +41,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PaginaCadastroActivity"
+            android:name=".atividades.cadastroelogin.PaginaCadastroActivity"
             android:exported="true" />
         <activity
-            android:name=".CadastroEstudante1Activity"
+            android:name=".atividades.cadastroelogin.CadastroEstudante1Activity"
             android:exported="true" />
         <activity
-            android:name=".CadastroProfessor1Activity"
+            android:name=".atividades.cadastroelogin.CadastroProfessor1Activity"
             android:exported="true" />
 
         <meta-data
