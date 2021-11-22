@@ -12,8 +12,12 @@
     <string name="msg_esqueceu_senha">Esqueceu sua senha? Clique </string>
     <string name="msg_recuperar_senha1">Enviaremos uma mensagem com instruções para que você possa acessar sua conta!</string>
     <string name="msg_recuperar_senha2">Digite no campo abaixo o mesmo e-mail que você usou no momento de cadastro da sua conta:</string>
-    <string name="enunciado1_friends"> 1. A frase "You were my first kiss with Rachel?", dita pelo personagem Ross, é um erro gramatical proposital? Você consegue identificar o porquê das perguntas com a ordem afirmativa (sujeito + verbo) nos exemplos citados? </string>
+    <string name="action_enunciado1_Friends"> 1. A frase "You were my first kiss with Rachel?", dita pelo personagem Ross, é um erro gramatical proposital? Você consegue identificar o porquê das perguntas com a ordem afirmativa (sujeito + verbo) nos exemplos citados? </string>
     <string name="action_pendentes">Pendentes</string>
     <string name="action_disponiveis">Disponíveis</string>
     <string name="action_excluir_ativ">Excluir Atividade</string>
+    <string name="action_mensagem_envio_ativ">Sua atividade foi enviada com sucesso.</string>
+    <string name="msg_instrucao_participar_turma">Digite, no campo abaixo, o código da turma que deseja participar:</string>
+    <string name="msg_instrucao_criar_turma">Preencha os campos abaixo com os dados da turma:</string>
+
 </resources>

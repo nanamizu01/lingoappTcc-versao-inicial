@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco_claro"
+    tools:context=".atividades.perfil.AlterarDadosEstudanteActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_barra_superior"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/barra_superior_voltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@id/btn_voltar"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:rotation="270"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_round_expand_less_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/branco_claro" />
+
+    <TextView
+        android:id="@+id/text_alterar_dados_professor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/josefin_sans_semibold"
+        android:text="ALTERAR DADOS"
+        android:textAlignment="center"
+        android:textColor="@color/branco_claro"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/frame_barra_superior" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group_barra_superior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="btn_voltar, frame_barra_superior,
+        text_alterar_dados_professor" >
+    </androidx.constraintlayout.widget.Group>
+
+    <TextView
+        android:id="@+id/text_nome_professor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/lalezar"
+        android:text="Nome:"
+        android:textColor="@color/roxo"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior" />
+
+    <EditText
+        android:id="@+id/plain_text_nome_input"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/fundo_botao"
+        android:backgroundTint="@color/branco_escuro"
+        android:ems="10"
+        android:fontFamily="@font/arimo"
+        android:hint="  nome"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textColor="@color/cinza_escuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_nome_professor" />
+
+
+    <TextView
+        android:id="@+id/text_sobrenome_professor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/lalezar"
+        android:text="Sobrenome:"
+        android:textColor="@color/roxo"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plain_text_nome_input" />
+
+    <EditText
+        android:id="@+id/plain_text_sobrenome_input"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/fundo_botao"
+        android:backgroundTint="@color/branco_escuro"
+        android:ems="10"
+        android:fontFamily="@font/arimo"
+        android:hint="  sobrenome"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textColor="@color/cinza_escuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_sobrenome_professor" />
+
+    <TextView
+        android:id="@+id/text_email_professor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/lalezar"
+        android:text="E-mail:"
+        android:textColor="@color/roxo"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plain_text_sobrenome_input" />
+
+    <EditText
+        android:id="@+id/plain_text_email_input"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/fundo_botao"
+        android:backgroundTint="@color/branco_escuro"
+        android:ems="10"
+        android:fontFamily="@font/arimo"
+        android:hint="  e-mail"
+        android:inputType="textEmailAddress"
+        android:textAlignment="textStart"
+        android:textColor="@color/cinza_escuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_email_professor" />
+
+    <TextView
+        android:id="@+id/text_senha_professor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/lalezar"
+        android:text="Senha:"
+        android:textColor="@color/roxo"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plain_text_email_input" />
+
+    <EditText
+        android:id="@+id/plain_text_senha_input"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/fundo_botao"
+        android:backgroundTint="@color/branco_escuro"
+        android:ems="10"
+        android:fontFamily="@font/arimo"
+        android:hint="  senha"
+        android:inputType="textPassword"
+        android:textAlignment="textStart"
+        android:textColor="@color/cinza_escuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_senha_professor" />
+
+    <Button
+        android:id="@+id/btn_cancelar"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/laranja1"
+        android:fontFamily="@font/lalezar"
+        android:text="Cancelar"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_salvar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plain_text_senha_input" />
+
+    <Button
+        android:id="@+id/btn_salvar"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="@color/roxo"
+        android:fontFamily="@font/lalezar"
+        android:text="Salvar"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_cancelar"
+        app:layout_constraintTop_toBottomOf="@+id/plain_text_senha_input" />
+
+    <TextView
+        android:id="@+id/text_excluir_conta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/arimo"
+        android:text="Excluir Conta"
+        android:textColor="@color/laranja1"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cancelar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

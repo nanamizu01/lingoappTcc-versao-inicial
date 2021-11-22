@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco_claro"
+    tools:context=".atividades.turmas.TurmaSelecionadaActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_barra_superior"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/barra_superior_tabs"
+        android:elevation="2dp">
+    </FrameLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_turma_selecionada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/roxo"
+        android:elevation="2dp"
+        app:tabIndicatorColor="@color/laranja1"
+        app:tabIndicatorGravity="bottom"
+        app:tabIndicatorHeight="4dp"
+        app:tabSelectedTextColor="@color/laranja1"
+        app:tabTextColor="@color/branco_escuro">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atividades" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Participantes" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+</RelativeLayout>

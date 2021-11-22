@@ -5,7 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/branco_claro"
+<<<<<<< HEAD
     tools:context=".VizuTarefaProfActivity">
+=======
+    tools:context=".atividades.cadastroelogin.CadastroProfessor1Activity">
+>>>>>>> 990a5c9d62b8d8d472a911bc24165901cda1d36a
 
     <FrameLayout
         android:id="@+id/frame_barra_superior"
