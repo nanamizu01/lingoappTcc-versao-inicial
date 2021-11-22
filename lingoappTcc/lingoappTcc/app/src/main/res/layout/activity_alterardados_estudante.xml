@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco_claro"
+    tools:context=".alterardados_estudantes">
+
+    <FrameLayout
+        android:id="@id/frame_barra_superior1"
+        android:layout_width="411dp"
+        android:layout_height="53dp"
+        android:background="@android:drawable/title_bar"
+        android:backgroundTint="@color/roxo"
+        tools:ignore="MissingConstraints">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/frame_barra_superior2"
+        android:layout_width="435dp"
+        android:layout_height="88dp"
+        android:background="@android:drawable/toast_frame"
+        android:backgroundTint="@color/roxo"
+        android:backgroundTintMode="src_over"
+        android:rotationX="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@id/btn_voltar"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="42dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="@color/roxo"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        app:tint="@color/branco_claro"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+        tools:srcCompat="?attr/homeAsUpIndicator" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@id/group_barra_superior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="frame_barra_superior1, frame_barra_superior2,
+            btn_voltar" />
+
+    <TextView
+        android:id="@+id/text_alterar_dados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/josefin_sans_semibold"
+        android:text="ALTERAR DADOS"
+        android:textAlignment="center"
+        android:textColor="@color/branco_claro"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/frame_barra_superior1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lalezar"
+        android:text="Nome:"
+        android:textColor="@color/roxo"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nome"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
