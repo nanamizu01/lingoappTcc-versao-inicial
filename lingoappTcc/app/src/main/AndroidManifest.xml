@@ -9,7 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lingoapp1">
-
+        <activity
+            android:name=".RespostasAtividadeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".atividades.turmas.DesempenhoEstudanteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".atividades.turmas.GerenciarTurmaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".atividades.turmas.TurmaSelecionadaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".atividades.turmas.ParticiparTurmaEstudanteActivity"
+            android:exported="false" />
         <activity
             android:name=".atividades.turmas.AbaTurmasEstudanteActivity"
             android:exported="true" />
