@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco_claro"
+    tools:context=".atividades.atividades.AbaAtividadesEstudanteActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_atividades_estudante"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/menu_inferior">
+
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/menu_inferior"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/roxo"
+        android:elevation="2dp"
+        app:menu="@menu/menu_navegacao_inferior"
+        app:itemIconSize="35dp"
+        app:labelVisibilityMode="unlabeled"
+        app:itemTextColor="@drawable/item_selector"
+        app:itemIconTint="@drawable/item_selector"/>
+
+</RelativeLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco_claro"
+    tools:context=".atividades.cadastroelogin.CadastroProfessor1Activity">
+
+    <FrameLayout
+        android:id="@+id/frame_barra_superior"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/barra_superior_voltar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@id/btn_voltar"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:rotation="270"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_round_expand_less_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/branco_claro" />
+
+    <TextView
+        android:id="@+id/text_cadastro_professor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/josefin_sans_semibold"
+        android:text="CADASTRO DE PROFESSOR"
+        android:textAlignment="center"
+        android:textColor="@color/branco_claro"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/frame_barra_superior" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group_barra_superior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="btn_voltar, frame_barra_superior,
+        text_cadastro_professor" >
+    </androidx.constraintlayout.widget.Group>
+
+    <TextView
+        android:id="@+id/text_preencher_dados"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/lalezar"
+        android:text="Preencha os seguintes campos com os seus dados:"
+        android:textAlignment="textStart"
+        android:textColor="@color/roxo"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior" />
+
+    <Button
+        android:id="@+id/btn_proximo"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/laranja1"
+        android:fontFamily="@font/lalezar"
+        android:text="Próximo"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plain_text_siape_input" />
+
+    <EditText
+        android:id="@+id/plain_text_nome_input"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/fundo_botao"
+        android:backgroundTint="@color/branco_escuro"
+        android:ems="10"
+        android:fontFamily="@font/arimo"
+        android:inputType="textPersonName"
+        android:hint="  nome"
+        android:textAlignment="textStart"
+        android:textColor="@color/cinza_escuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_preencher_dados" />
+
+    <EditText
+        android:id="@+id/plain_text_sobrenome_input"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/fundo_botao"
+        android:backgroundTint="@color/branco_escuro"
+        android:ems="10"
+        android:fontFamily="@font/arimo"
+        android:inputType="textPersonName"
+        android:hint="  sobrenome"
+        android:textAlignment="textStart"
+        android:textColor="@color/cinza_escuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plain_text_nome_input" />
+
+    <EditText
+        android:id="@+id/plain_text_siape_input"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/fundo_botao"
+        android:backgroundTint="@color/branco_escuro"
+        android:ems="10"
+        android:fontFamily="@font/arimo"
+        android:inputType="number"
+        android:hint="  SIAPE"
+        android:textAlignment="textStart"
+        android:textColor="@color/cinza_escuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plain_text_sobrenome_input" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
