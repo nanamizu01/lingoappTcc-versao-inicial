@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/branco_claro"
-    tools:context=".CadastroProfessor1Activity">
+    tools:context=".PagTarefaAlunoActivity">
 
     <FrameLayout
         android:id="@+id/frame_barra_superior"
@@ -59,7 +59,7 @@
         android:layout_marginTop="18dp"
         android:layout_marginEnd="12dp"
         android:fontFamily="@font/lalezar"
-        android:text="@string/action_enunciado1_Friends"
+        android:text="@string/enunciado1_friends"
         android:textAlignment="viewStart"
         android:textColor="@color/cinza_escuro"
         android:textSize="16sp"
