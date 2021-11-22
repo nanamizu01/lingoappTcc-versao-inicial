@@ -1,4 +1,4 @@
-package com.example.lingoappTcc;
+package com.example.lingoappTcc.atividades.atividades;
 
 import android.app.Activity;
 

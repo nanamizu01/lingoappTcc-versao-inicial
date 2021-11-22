@@ -1,8 +1,10 @@
-package com.example.lingoappTcc;
+package com.example.lingoappTcc.atividades.turmas;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.lingoappTcc.R;
 
 public class RespostasAtividadeActivity extends AppCompatActivity {
 

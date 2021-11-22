@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lingoapp1">
         <activity
-            android:name=".RespostasAtividadeActivity"
+            android:name=".atividades.turmas.RespostasAtividadeActivity"
             android:exported="false" />
         <activity
             android:name=".atividades.turmas.DesempenhoEstudanteActivity"
