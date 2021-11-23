@@ -57,8 +57,8 @@
                 android:id="@+id/image_avatar_perfil"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_marginStart="48dp"
-                android:layout_marginTop="51dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="50dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior"
                 tools:srcCompat="@tools:sample/avatars" />
@@ -67,14 +67,12 @@
                 android:id="@+id/text_nome_estudante"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="19dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="76dp"
-                android:layout_marginEnd="105dp"
                 android:text="João Silva"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/image_avatar_perfil"
                 app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior" />
 
@@ -82,14 +80,12 @@
                 android:id="@+id/text_email_estudante"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="19dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginEnd="65dp"
                 android:fontFamily="@font/arimo"
                 android:text="joaosilva@gmail.com"
                 android:textColor="@color/black"
                 android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/image_avatar_perfil"
                 app:layout_constraintTop_toBottomOf="@+id/text_nome_estudante" />
 

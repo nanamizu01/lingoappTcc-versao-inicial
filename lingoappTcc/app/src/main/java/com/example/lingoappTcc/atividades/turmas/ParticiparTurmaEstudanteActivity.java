@@ -11,8 +11,6 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.example.lingoappTcc.R;
-import com.example.lingoappTcc.atividades.cadastroelogin.PaginaInicialActivity;
-import com.example.lingoappTcc.atividades.cadastroelogin.RecuperarSenhaActivity;
 
 public class ParticiparTurmaEstudanteActivity extends AppCompatActivity {
 

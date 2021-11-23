@@ -26,7 +26,7 @@ public class AbaTurmasEstudanteActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_aba_turmas_estudante);
 
-        btn_participar_turma = (ImageButton) findViewById(R.id.btn_criar_turma);
+        btn_participar_turma = (ImageButton) findViewById(R.id.btn_participar_turma);
         btn_turma = (Button) findViewById(R.id.btn_turma);
 
         btn_participar_turma.setOnClickListener(new View.OnClickListener() {
@@ -66,7 +66,6 @@ public class AbaTurmasEstudanteActivity extends AppCompatActivity {
             }
         });
     }
-
     private void btn_participar_turmaActivity() {
         startActivity(new Intent (this,ParticiparTurmaEstudanteActivity.class));
     }
@@ -74,5 +73,4 @@ public class AbaTurmasEstudanteActivity extends AppCompatActivity {
     private void btn_turmaActivity() {
         startActivity(new Intent(this, TurmaSelecionadaActivity.class));
     }
-
 }

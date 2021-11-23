@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.example.lingoappTcc.R;
 import com.example.lingoappTcc.atividades.atividades.AbaAtividadesEstudanteActivity;
+import com.example.lingoappTcc.atividades.atividades.AbaAtividadesProfessorActivity;
 
 public class LoginProfessorActivity extends AppCompatActivity {
 
@@ -55,7 +56,7 @@ public class LoginProfessorActivity extends AppCompatActivity {
     }
 
     private void btn_entrarActivity() {
-        startActivity(new Intent(this, AbaAtividadesEstudanteActivity.class));
+        startActivity(new Intent(this, AbaAtividadesProfessorActivity.class));
     }
 
     private void text_aquiActivity() {

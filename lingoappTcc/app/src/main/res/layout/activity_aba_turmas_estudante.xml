@@ -100,7 +100,6 @@
 
     </FrameLayout>
 
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/menu_inferior"
         android:layout_width="match_parent"
