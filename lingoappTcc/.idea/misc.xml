@@ -65,11 +65,13 @@
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_perfil_professor.xml" value="0.192481884057971" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_recuperar_senha.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_respostas_atividade.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_turma_selecionada.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_turma_selecionada.xml" value="0.22" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_vizu_tarefa_prof.xml" value="0.25" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/fragment_atividades.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/fragment_cadastroestudante1.xml" value="0.6627906976744186" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/fragment_perfil.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/fragment_turma_atividades.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/fragment_turma_participantes.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/fragment_turma_selecionada.xml" value="0.33" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/fragment_turmas.xml" value="0.25" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/menu_navegacao_inferior.xml" value="0.20416666666666666" />

@@ -20,5 +20,7 @@
     <string name="msg_instrucao_participar_turma">Digite, no campo abaixo, o código da turma que deseja participar:</string>
     <string name="msg_instrucao_criar_turma">Preencha os campos abaixo com os dados da turma:</string>
     <string name="queroacabaotcclogo">vo me m</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
