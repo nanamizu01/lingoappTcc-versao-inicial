@@ -13,6 +13,155 @@
         android:layout_height="match_parent"
         android:layout_above="@id/menu_inferior">
 
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/frame_barra_superior"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/barra_superior_voltar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/text_atividades_prof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/josefin_sans_semibold"
+                android:text="ATIVIDADES"
+                android:textAlignment="center"
+                android:textColor="@color/branco_claro"
+                android:textSize="26sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/frame_barra_superior" />
+
+            <TextView
+                android:id="@+id/text_musicas"
+                android:layout_width="320dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/arimo"
+                android:text="Músicas"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/laranja1"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.545"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior" />
+
+            <Button
+                android:id="@+id/btn_atividade_mus1"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="362dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/branco_escuro"
+                android:fontFamily="@font/arimo"
+                android:text="Cant't stop the feeling - Justin Timberlake."
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/roxo"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_musicas" />
+
+            <Button
+                android:id="@+id/btn_atividade_mus2"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="362dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/branco_escuro"
+                android:fontFamily="@font/arimo"
+                android:text="Yellow - Codplay"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/roxo"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_atividade_mus1" />
+
+            <TextView
+                android:id="@+id/text_series"
+                android:layout_width="320dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/arimo"
+                android:text="Séries"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/laranja1"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.545"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_atividade_mus2" />
+
+            <Button
+                android:id="@+id/btn_atividade_ser1"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="362dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/branco_escuro"
+                android:fontFamily="@font/arimo"
+                android:text="Friends"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false"
+                android:textColor="@color/roxo"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_series" />
+
+            <TextView
+                android:id="@+id/text_disponiveis_prof"
+                android:layout_width="120dp"
+                android:layout_height="762dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="48dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/arimo"
+                android:onClick="onClick"
+                android:scaleType="centerCrop"
+                android:text="@string/action_disponiveis"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/branco_claro"
+                android:textSize="22sp"
+                app:layout_constraintEnd_toStartOf="@+id/text_atividades_prof"
+                app:layout_constraintHorizontal_bias="0.052"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="OnClick" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </FrameLayout>
 
