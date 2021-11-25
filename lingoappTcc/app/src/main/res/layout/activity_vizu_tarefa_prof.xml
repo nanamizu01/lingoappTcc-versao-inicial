@@ -69,7 +69,7 @@
         app:layout_constraintTop_toBottomOf="@+id/text_titulo_ativ" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_voltar"
         android:layout_width="116dp"
         android:layout_height="49dp"
         android:layout_marginStart="40dp"
@@ -88,7 +88,7 @@
         app:layout_constraintTop_toBottomOf="@+id/text_enunciado_ativ" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_atribuir"
         android:layout_width="114dp"
         android:layout_height="56dp"
         android:layout_marginStart="95dp"
@@ -102,8 +102,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/btn_voltar"
         app:layout_constraintTop_toBottomOf="@+id/text_enunciado_ativ"
         app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
