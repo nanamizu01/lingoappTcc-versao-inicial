@@ -1,6 +1,6 @@
 package com.example.lingoappTcc.atividades.atividades;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class AtividadesAlunoActivity extends Activity {
+public class AtividadesAlunoActivity extends AppCompatActivity {
 }
