@@ -133,12 +133,11 @@
                 android:fontFamily="@font/arimo"
                 android:text="Séries"
                 android:textAlignment="textStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Small"
                 android:textColor="@color/laranja1"
                 android:textSize="32sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.545"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_atividade_mus2" />
 
@@ -158,8 +157,6 @@
                 android:textStyle="bold"
                 android:typeface="normal"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintGuide_end="@id/frame_barra_superior"
-                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/text_series" />
         </androidx.constraintlayout.widget.ConstraintLayout>
