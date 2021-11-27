@@ -10,27 +10,27 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.lingoappTcc.R;
 
-public class PagTarefaAlunoActivity extends AppCompatActivity {
+public class EnvioTarefaActivity extends AppCompatActivity {
 
-    private Button btn_enviar;
+    private Button btn_ver_pontuacao;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
-        setContentView(R.layout.activity_pag_tarefa_aluno);
+        setContentView(R.layout.activity_envio_tarefa);
 
-        btn_enviar = (Button) findViewById(R.id.btn_enviar);
+        btn_ver_pontuacao = (Button) findViewById(R.id.btn_enviar);
 
-        btn_enviar.setOnClickListener(new View.OnClickListener() {
+        btn_ver_pontuacao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btn_enviarActivity();
+                btn_ver_pontuacaoActivity();
             }
         });
 
     }
-    private void btn_enviarActivity() {
-        startActivity(new Intent(this, EnvioTarefaActivity.class));
+    private void btn_ver_pontuacaoActivity() {
+
     }
 }

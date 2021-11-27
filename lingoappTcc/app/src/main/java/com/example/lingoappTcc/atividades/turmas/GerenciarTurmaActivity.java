@@ -8,12 +8,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.example.lingoappTcc.R;
 import com.example.lingoappTcc.atividades.perfil.AlterarDadosEstudanteActivity;
 
 public class GerenciarTurmaActivity extends AppCompatActivity {
 
+    private ImageButton btn_voltar;
     private Button btn_convidar_estudante, btn_editar_turma,
         btn_retirar_estudante, btn_excluir_turma;
 
@@ -23,11 +25,19 @@ public class GerenciarTurmaActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_gerenciar_turma);
 
+        btn_voltar = findViewById(R.id.btn_voltar);
         btn_convidar_estudante = (Button) findViewById(R.id.btn_convidar_estudante);
         btn_editar_turma = (Button) findViewById(R.id.btn_editar_turma);
         btn_retirar_estudante = (Button) findViewById(R.id.btn_retirar_estudante);
         btn_excluir_turma = (Button) findViewById(R.id.btn_excluir_turma);
 
+
+        btn_voltar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btn_voltarActivity();
+            }
+        });
         btn_convidar_estudante.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -52,6 +62,10 @@ public class GerenciarTurmaActivity extends AppCompatActivity {
                 btn_excluir_turmaActivity();
             }
         });
+    }
+
+    private void btn_voltarActivity() {
+        startActivity(new Intent(this, TurmaSelecionadaPActivity.class));
     }
     private void btn_convidar_estudanteActivity() {
         //pop up personalizada ou fragmento ?

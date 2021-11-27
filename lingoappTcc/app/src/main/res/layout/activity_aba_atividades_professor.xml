@@ -21,7 +21,7 @@
                 android:id="@+id/frame_barra_superior"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:background="@drawable/barra_superior_voltar"
+                android:background="@drawable/barra_tabs"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -33,12 +33,12 @@
                 android:id="@+id/text_atividades_prof"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="18dp"
                 android:fontFamily="@font/josefin_sans_semibold"
                 android:text="ATIVIDADES"
                 android:textAlignment="center"
                 android:textColor="@color/branco_claro"
-                android:textSize="26sp"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="@+id/frame_barra_superior"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
@@ -140,27 +140,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/text_series" />
 
-            <TextView
-                android:id="@+id/text_disponiveis_prof"
-                android:layout_width="120dp"
-                android:layout_height="762dp"
-                android:layout_marginStart="44dp"
-                android:layout_marginTop="48dp"
-                android:clickable="true"
-                android:focusable="true"
-                android:fontFamily="@font/arimo"
-                android:onClick="onClick"
-                android:scaleType="centerCrop"
-                android:text="@string/action_disponiveis"
-                android:textAlignment="textStart"
-                android:textAllCaps="false"
-                android:textColor="@color/branco_claro"
-                android:textSize="22sp"
-                app:layout_constraintEnd_toStartOf="@+id/text_atividades_prof"
-                app:layout_constraintHorizontal_bias="0.052"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="OnClick" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </FrameLayout>

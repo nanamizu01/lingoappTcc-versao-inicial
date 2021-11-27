@@ -97,33 +97,17 @@
                 android:id="@+id/btn_editar_dados"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="118dp"
+                android:layout_marginStart="114dp"
                 android:layout_marginTop="100dp"
-                android:layout_marginEnd="119dp"
+                android:layout_marginEnd="123dp"
                 android:backgroundTint="@color/laranja1"
                 android:fontFamily="@font/lalezar"
                 android:text="Editar Dados"
                 app:icon="@android:drawable/ic_menu_edit"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/image_avatar_perfil" />
-
-            <Button
-                android:id="@+id/btn_sair"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="158dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="157dp"
-                android:layout_marginBottom="184dp"
-                android:backgroundTint="@color/laranja1"
-                android:fontFamily="@font/lalezar"
-                android:text="Sair"
-                app:icon="@android:drawable/ic_lock_power_off"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btn_editar_dados" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

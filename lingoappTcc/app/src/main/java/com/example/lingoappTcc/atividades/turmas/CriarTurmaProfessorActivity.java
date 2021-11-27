@@ -21,10 +21,10 @@ public class CriarTurmaProfessorActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
-        setContentView(R.layout.activity_participar_turma_estudante);
+        setContentView(R.layout.activity_criar_turma_professor);
 
         btn_voltar = (ImageButton) findViewById(R.id.btn_voltar);
-        btn_criar = (Button) findViewById(R.id.btn_participar);
+        btn_criar = (Button) findViewById(R.id.btn_criar);
 
         btn_voltar.setOnClickListener(new View.OnClickListener() {
             @Override

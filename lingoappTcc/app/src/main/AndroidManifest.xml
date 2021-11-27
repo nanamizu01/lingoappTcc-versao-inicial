@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lingoapp1">
-
+        <activity
+            android:name=".atividades.turmas.AtividadesTurmaSelecionadaActivity"
+            android:exported="true" />
         <activity
             android:name=".atividades.cadastroelogin.PaginaInicialActivity"
             android:exported="true">
@@ -80,16 +82,10 @@
             android:name=".atividades.turmas.RespostasAtividadeActivity"
             android:exported="true" />
         <activity
-            android:name=".atividades.turmas.TurmaSelecionadaActivity"
+            android:name=".atividades.turmas.TurmaSelecionadaPActivity"
             android:exported="true" />
         <activity
-            android:name=".atividades.atividades.AtividadesAluno2Activity"
-            android:exported="true" />
-        <activity
-            android:name=".atividades.atividades.AtividadesAlunoActivity"
-            android:exported="true" />
-        <activity
-            android:name=".atividades.atividades.AtividadesProfessorActivity"
+            android:name=".atividades.turmas.TurmaSelecionadaEActivity"
             android:exported="true" />
         <activity
             android:name=".atividades.atividades.CriarAtividadeActivity"

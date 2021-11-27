@@ -49,7 +49,6 @@ public class PaginaCadastroActivity extends AppCompatActivity {
 
     private void btn_voltarActivity() {
         startActivity(new Intent(this, PaginaInicialActivity.class));
-        finish();
     }
 
     private void btn_sou_estudanteActivity() {

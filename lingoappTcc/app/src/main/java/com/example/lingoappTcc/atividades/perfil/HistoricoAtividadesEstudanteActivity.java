@@ -57,10 +57,9 @@ public class HistoricoAtividadesEstudanteActivity extends AppCompatActivity {
             }
         });
 
-        }
-        private void btn_voltarActivity() {
-            startActivity(new Intent(this, AbaPerfilEstudanteActivity.class));
-        }
-
+    }
+    private void btn_voltarActivity() {
+        startActivity(new Intent(this, AbaPerfilEstudanteActivity.class));
     }
 
+}

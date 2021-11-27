@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.lingoappTcc.R;
 import com.example.lingoappTcc.atividades.atividades.AbaAtividadesEstudanteActivity;
-import com.example.lingoappTcc.atividades.cadastroelogin.PaginaInicialActivity;
 import com.example.lingoappTcc.atividades.turmas.AbaTurmasEstudanteActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -20,7 +19,6 @@ public class AbaPerfilEstudanteActivity extends AppCompatActivity {
     private Button btn_editar_dados;
     private Button btn_historico_atividades;
     private Button btn_conquistas;
-    private Button btn_sair;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +29,6 @@ public class AbaPerfilEstudanteActivity extends AppCompatActivity {
         btn_editar_dados = (Button) findViewById(R.id.btn_editar_dados);
         btn_historico_atividades = (Button) findViewById(R.id.btn_historico_atividades);
         btn_conquistas = (Button) findViewById(R.id.btn_conquistas);
-        btn_sair = (Button) findViewById(R.id.btn_sair);
 
         btn_editar_dados.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,13 +48,6 @@ public class AbaPerfilEstudanteActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 btn_conquistasActivity();
-            }
-        });
-
-        btn_sair.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                btn_sairActivity();
             }
         });
 
@@ -83,10 +73,6 @@ public class AbaPerfilEstudanteActivity extends AppCompatActivity {
                 return false;
             }
         });
-    }
-
-    private void btn_sairActivity() {
-        startActivity(new Intent(this, PaginaInicialActivity.class));
     }
 
     private void btn_conquistasActivity() {

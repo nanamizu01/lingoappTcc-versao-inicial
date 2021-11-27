@@ -72,7 +72,7 @@ public class AbaTurmasProfessorActivity extends AppCompatActivity {
     }
 
     private void btn_turmaActivity() {
-        startActivity(new Intent(this, TurmaSelecionadaActivity.class));
+        startActivity(new Intent(this, TurmaSelecionadaPActivity.class));
     }
 
 }
