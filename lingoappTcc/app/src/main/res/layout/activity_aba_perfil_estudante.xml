@@ -51,40 +51,28 @@
                 app:constraint_referenced_ids="frame_barra_superior,
         text_meu_perfil_estudante"></androidx.constraintlayout.widget.Group>
 
-            <ImageView
-                android:id="@+id/image_avatar_perfil"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="50dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior"
-                tools:srcCompat="@tools:sample/avatars" />
-
             <TextView
                 android:id="@+id/text_nome_estudante"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
                 android:layout_marginTop="76dp"
                 android:text="João Silva"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/image_avatar_perfil"
+                app:layout_constraintStart_toEndOf="@+id/avatar_estudante"
                 app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior" />
 
             <TextView
                 android:id="@+id/text_email_estudante"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/arimo"
                 android:text="joaosilva@gmail.com"
                 android:textColor="@color/black"
                 android:textSize="16sp"
-                app:layout_constraintStart_toEndOf="@+id/image_avatar_perfil"
+                app:layout_constraintStart_toEndOf="@+id/avatar_estudante"
                 app:layout_constraintTop_toBottomOf="@+id/text_nome_estudante" />
 
             <Button
@@ -92,7 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="12dp"
                 android:backgroundTint="@color/laranja1"
                 android:fontFamily="@font/lalezar"
@@ -101,7 +89,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/image_avatar_perfil" />
+                app:layout_constraintTop_toBottomOf="@+id/avatar_estudante" />
 
             <Button
                 android:id="@+id/btn_historico_atividades"
@@ -150,6 +138,17 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_conquistas" />
+
+            <ImageView
+                android:id="@+id/avatar_estudante"
+                android:layout_width="173dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior"
+                app:srcCompat="@drawable/avatar_estudante" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </FrameLayout>

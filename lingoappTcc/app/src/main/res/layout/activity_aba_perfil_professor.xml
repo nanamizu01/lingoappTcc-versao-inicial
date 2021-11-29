@@ -51,21 +51,10 @@
                 app:constraint_referenced_ids="frame_barra_superior,
         text_meu_perfil_estudante"></androidx.constraintlayout.widget.Group>
 
-            <ImageView
-                android:id="@+id/image_avatar_perfil"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_marginStart="48dp"
-                android:layout_marginTop="51dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior"
-                tools:srcCompat="@tools:sample/avatars" />
-
             <TextView
                 android:id="@+id/text_nome_estudante"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="19dp"
                 android:layout_marginTop="76dp"
                 android:layout_marginEnd="105dp"
                 android:text="João Silva"
@@ -73,14 +62,13 @@
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/image_avatar_perfil"
+                app:layout_constraintStart_toEndOf="@+id/avatar_professor"
                 app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior" />
 
             <TextView
                 android:id="@+id/text_email_estudante"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="19dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="65dp"
                 android:fontFamily="@font/arimo"
@@ -88,7 +76,7 @@
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/image_avatar_perfil"
+                app:layout_constraintStart_toEndOf="@+id/avatar_professor"
                 app:layout_constraintTop_toBottomOf="@+id/text_nome_estudante" />
 
             <Button
@@ -96,7 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginEnd="12dp"
                 android:backgroundTint="@color/laranja1"
                 android:fontFamily="@font/lalezar"
@@ -105,7 +93,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/image_avatar_perfil" />
+                app:layout_constraintTop_toBottomOf="@+id/avatar_professor" />
 
             <Button
                 android:id="@+id/btn_sair"
@@ -122,6 +110,17 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_editar_dados" />
+
+            <ImageView
+                android:id="@+id/avatar_professor"
+                android:layout_width="173dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior"
+                app:srcCompat="@drawable/avatar_professor" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
