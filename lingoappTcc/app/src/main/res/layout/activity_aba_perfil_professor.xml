@@ -98,7 +98,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="114dp"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="150dp"
                 android:layout_marginEnd="123dp"
                 android:backgroundTint="@color/laranja1"
                 android:fontFamily="@font/lalezar"
@@ -108,6 +108,25 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/image_avatar_perfil" />
+
+            <Button
+                android:id="@+id/btn_sair"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="154dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="153dp"
+                android:layout_marginBottom="180dp"
+                android:backgroundTint="@color/laranja1"
+                android:fontFamily="@font/lalezar"
+                android:text="Sair"
+                app:icon="@android:drawable/ic_lock_power_off"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.428"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_editar_dados"
+                app:layout_constraintVertical_bias="0.0" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
