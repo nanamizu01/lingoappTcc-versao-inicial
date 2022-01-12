@@ -10,6 +10,9 @@
     <string name="title_login_professor">Login de Professor</string>
     <string name="title_login_estudante">Login de Estudante</string>
     <string name="title_perfil">Meu Perfil</string>
+    <string name="title_alterar_dados">Alterar Dados</string>
+    <string name="title_criar_atividade">Criar Atividade</string>
+    <string name="title_titulo_atividade">Título da Atividade</string>
 
     <!-- mensagens -->
     <string name="msg_sou_novo_quero_me">Sou novo, quero me </string>
@@ -26,6 +29,11 @@
     <string name="msg_nome_estudante">Nome Sobrenome</string>
     <string name="msg_email_professor">professor@email.com</string>
     <string name="msg_email_estudante">estudante@email.com</string>
+    <string name="msg_digitar_nome">Nome:</string>
+    <string name="msg_digitar_sobrenome">Sobrenome:</string>
+    <string name="msg_digitar_senha">Senha:</string>
+    <string name="msg_digitar_email">E-mail:</string>
+    <string name="msg_instrucao_criar_atividade">Agora preencha com os dados da atividade:</string>
 
         <!-- separando em ordem-->
     <string name="msg_instrucao_participar_turma">Digite, no campo abaixo, o código da turma que deseja participar:</string>
@@ -44,6 +52,9 @@
     <string name="action_editar_dados">Editar Dados</string>
     <string name="action_historico_atividades">Histórico de Atividades</string>
     <string name="action_conquistas">Conquistas</string>
+    <string name="action_cancelar">Cancelar</string>
+    <string name="action_salvar">Salvar</string>
+    <string name="action_excluir_conta">Excluir conta</string>
 
         <!-- separando em ordem-->
     <string name="action_enunciado1_Friends"> 1. A frase "You were my first kiss with Rachel?", dita pelo personagem Ross, é um erro gramatical proposital? Você consegue identificar o porquê das perguntas com a ordem afirmativa (sujeito + verbo) nos exemplos citados? </string>

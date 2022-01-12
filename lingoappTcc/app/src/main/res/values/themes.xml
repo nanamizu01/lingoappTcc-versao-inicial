@@ -3,8 +3,8 @@
     <style name="Theme.Lingoapp1" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/roxo</item>
-        <item name="colorPrimaryVariant">@color/branco_escuro</item>
-        <item name="colorOnPrimary">@color/roxo</item>
+        <item name="colorPrimaryVariant">@color/roxo</item>
+        <item name="colorOnPrimary">@color/branco_claro</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/laranja1</item>
         <item name="colorSecondaryVariant">@color/laranja1</item>
@@ -50,6 +50,7 @@
         <item name="android:textAlignment">textStart</item>
         <item name="android:textColor">@color/cinza_escuro</item>
         <item name="android:ems">10</item>
+        <item name="android:textColorHint">@color/cinza_escuro</item>
     </style>
 
     <style name="tituloDaPagina">

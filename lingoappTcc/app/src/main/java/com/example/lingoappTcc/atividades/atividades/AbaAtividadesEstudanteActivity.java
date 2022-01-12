@@ -11,7 +11,6 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.example.lingoappTcc.fragmentos.AtividadesDisponiveisEstudanteFragment;
 import com.example.lingoappTcc.R;
-import com.example.lingoappTcc.VPAdapter;
 import com.example.lingoappTcc.atividades.perfil.AbaPerfilEstudanteActivity;
 import com.example.lingoappTcc.atividades.turmas.AbaTurmasEstudanteActivity;
 import com.example.lingoappTcc.fragmentos.AtividadesPendentesFragment;

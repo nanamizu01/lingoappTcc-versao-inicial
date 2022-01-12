@@ -9,30 +9,35 @@
 
     <FrameLayout
         android:id="@+id/frame_barra_superior"
-        android:layout_width="411dp"
-        android:layout_height="93dp"
-        android:background="@drawable/barra_superior_voltar"
+        android:theme="@style/barraSuperiorVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
     </FrameLayout>
 
+    <ImageButton
+        android:id="@id/btn_voltar"
+        android:theme="@style/botaoVoltar"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
     <TextView
-        android:id="@+id/text_pag_tarefa_aluno"
+        android:id="@+id/text_titulo_atividade"
+        android:theme="@style/tituloDaPagina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:fontFamily="@font/josefin_sans_semibold"
-        android:text="ATIVIDADES"
-        android:textAlignment="center"
-        android:textColor="@color/branco_claro"
-        android:textSize="26sp"
+        android:layout_marginTop="24dp"
+        android:text="@string/title_titulo_atividade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/frame_barra_superior" />
+
     <TextView
         android:id="@+id/text_titulo_ativ"
         android:layout_width="320dp"
