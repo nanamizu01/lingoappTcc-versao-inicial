@@ -224,7 +224,7 @@
         android:backgroundTint="@color/roxo"
         android:fontFamily="@font/lalezar"
         android:text="Salvar"
-        android:textAllCaps="false"
+        android:textColor="@color/branco_claro"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

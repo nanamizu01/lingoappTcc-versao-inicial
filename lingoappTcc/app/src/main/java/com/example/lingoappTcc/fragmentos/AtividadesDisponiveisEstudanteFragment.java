@@ -40,6 +40,6 @@ public class AtividadesDisponiveisEstudanteFragment extends Fragment {
     }
 
     private void btn_atividade_mus1Metodo() {
-      //  startActivity(new Intent(this, PagTarefaAlunoActivity.class));
+
     }
 }

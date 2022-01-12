@@ -28,11 +28,12 @@
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/drawable/ic_round_library_books_24.xml" value="0.2203125" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/drawable/ic_round_school_24.xml" value="0.2203125" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/drawable/item_selector.xml" value="0.2" />
+        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout-land/activity_pagina_inicial.xml" value="0.1728395061728395" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_atividades_estudante.xml" value="0.2033514492753623" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_atividades_estudante1.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_atividades_professor.xml" value="0.2033514492753623" />
-        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_perfil_estudante.xml" value="0.11313131313131314" />
-        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_perfil_professor.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_perfil_estudante.xml" value="0.25" />
+        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_perfil_professor.xml" value="0.25" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_turmas_estudante.xml" value="0.33" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_turmas_estudante1.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_turmas_professor.xml" value="0.2033514492753623" />
@@ -45,8 +46,8 @@
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_cadastro_estudante.xml" value="0.22" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_cadastro_estudante1.xml" value="0.37254901960784315" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_cadastro_estudante2.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_cadastro_professor1.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_cadastro_professor2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_cadastro_professor1.xml" value="0.33" />
+        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_cadastro_professor2.xml" value="0.33" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_confirmar_email.xml" value="0.25" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_conquistas_estudante.xml" value="0.33" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_criar_atividade.xml" value="0.20416666666666666" />
@@ -60,8 +61,8 @@
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_login_professor.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_pag_tarefa_aluno.xml" value="0.25" />
-        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_pagina_cadastro.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_pagina_inicial.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_pagina_cadastro.xml" value="0.33" />
+        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_pagina_inicial.xml" value="0.33" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_pagina_turmas_estudante.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_participar_turma_estudante.xml" value="0.25" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_perfil_estudante.xml" value="0.2033514492753623" />

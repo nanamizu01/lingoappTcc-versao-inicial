@@ -1,25 +1,62 @@
 <resources>
+
+    <!-- títulos -->
     <string name="title_nome_lingoapp">LingoApp</string>
-    <string name="action_entrar_estudante">Entrar como Estudante</string>
-    <string name="action_entrar_professor">Entrar como Professor</string>
-    <string name="msg_logo_lingoapp">logo LingoApp</string>
+    <string name="title_pagina_cadastro">Página de Cadastro</string>
+    <string name="title_cadastro_estudante">Cadastro de Estudante</string>
+    <string name="title_cadastro_professor">Cadastro de Professor</string>
+    <string name="title_confirmar_email">Confirmação de E-mail</string>
+    <string name="title_recuperar_senha">Recuperar Senha</string>
+    <string name="title_login_professor">Login de Professor</string>
+    <string name="title_login_estudante">Login de Estudante</string>
+    <string name="title_perfil">Meu Perfil</string>
+
+    <!-- mensagens -->
     <string name="msg_sou_novo_quero_me">Sou novo, quero me </string>
-    <string name="action_cadastrar">CADASTRAR</string>
+    <string name="msg_cadastro">Que tipo de conta você quer criar?</string>
+    <string name="msg_instrucao_cadastro1">Preencha os seguintes campos com os seus dados:</string>
+    <string name="msg_instrucao_cadastro2">Agora preencha com os dados de login:</string>
     <string name="msg_confirmar_email1">Enviamos uma mensagem para o seu endereço de e-mail para confirmar sua conta!</string>
     <string name="msg_confirmar_email2">Digite o código que você recebeu no campo abaixo:</string>
     <string name="msg_reenviar_email">Não recebeu o e-mail? Clique </string>
-    <string name="action_reenviar_email">AQUI</string>
     <string name="msg_esqueceu_senha">Esqueceu sua senha? Clique </string>
     <string name="msg_recuperar_senha1">Enviaremos uma mensagem com instruções para que você possa acessar sua conta!</string>
     <string name="msg_recuperar_senha2">Digite no campo abaixo o mesmo e-mail que você usou no momento de cadastro da sua conta:</string>
+    <string name="msg_nome_professor">Nome Sobrenome</string>
+    <string name="msg_nome_estudante">Nome Sobrenome</string>
+    <string name="msg_email_professor">professor@email.com</string>
+    <string name="msg_email_estudante">estudante@email.com</string>
+
+        <!-- separando em ordem-->
+    <string name="msg_instrucao_participar_turma">Digite, no campo abaixo, o código da turma que deseja participar:</string>
+    <string name="msg_instrucao_criar_turma">Preencha os campos abaixo com os dados da turma:</string>
+
+    <!-- ações/botões -->
+    <string name="action_entrar_estudante">Entrar como Estudante</string>
+    <string name="action_entrar_professor">Entrar como Professor</string>
+    <string name="action_cadastrar"> Cadastrar</string>
+    <string name="action_sou_estudante">Sou Estudante</string>
+    <string name="action_sou_professor">Sou Professor</string>
+    <string name="action_proximo">Próximo</string>
+    <string name="action_enviar">Enviar</string>
+    <string name="action_aqui">AQUI</string>
+    <string name="action_sair">Sair</string>
+    <string name="action_editar_dados">Editar Dados</string>
+    <string name="action_historico_atividades">Histórico de Atividades</string>
+    <string name="action_conquistas">Conquistas</string>
+
+        <!-- separando em ordem-->
     <string name="action_enunciado1_Friends"> 1. A frase "You were my first kiss with Rachel?", dita pelo personagem Ross, é um erro gramatical proposital? Você consegue identificar o porquê das perguntas com a ordem afirmativa (sujeito + verbo) nos exemplos citados? </string>
     <string name="action_pendentes">Pendentes</string>
     <string name="action_disponiveis">Disponíveis</string>
     <string name="action_excluir_ativ">Excluir Atividade</string>
     <string name="action_mensagem_envio_ativ">Sua atividade foi enviada com sucesso.</string>
-    <string name="msg_instrucao_participar_turma">Digite, no campo abaixo, o código da turma que deseja participar:</string>
-    <string name="msg_instrucao_criar_turma">Preencha os campos abaixo com os dados da turma:</string>
-    <string name="queroacabaotcclogo">vo me m</string>
+
+    <!-- descrições de imagem -->
+    <string name="desc_logo_lingoapp">O desenho geométrico e simples da cabeça de uma raposa, que é o logo do aplicativo LingoApp</string>
+    <string name="desc_avatar">Imagem de avatar que representa o usuário selecionado.</string>
+    <string name="desc_botao_voltar">Seta para a esquerda selecionável para voltar à página anterior.</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

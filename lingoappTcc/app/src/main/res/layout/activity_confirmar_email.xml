@@ -9,34 +9,37 @@
 
     <FrameLayout
         android:id="@+id/frame_barra_superior"
+        android:theme="@style/barraSuperiorVoltar"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="@drawable/barra_superior_voltar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
     </FrameLayout>
 
+    <ImageButton
+        android:id="@+id/btn_voltar"
+        android:theme="@style/botaoVoltar"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
     <androidx.constraintlayout.widget.Group
         android:id="@id/group_barra_superior"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:constraint_referenced_ids="frame_barra_superior, text_confirmacao_email,
-           " /> //btn_voltar
+        app:constraint_referenced_ids="frame_barra_superior, text_confirmacao_email, btn_voltar" />
 
     <TextView
         android:id="@+id/text_confirmacao_email"
+        android:theme="@style/tituloDaPagina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="12dp"
-        android:fontFamily="@font/josefin_sans_semibold"
-        android:text="CONFIRMAÇÃO DE E-MAIL"
-        android:textAlignment="center"
-        android:textColor="@color/branco_claro"
-        android:textSize="26sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/title_confirmar_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,16 +47,11 @@
 
     <TextView
         android:id="@+id/text_instrucao1"
+        android:theme="@style/textoRoxoLalezar"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="12dp"
-        android:fontFamily="@font/lalezar"
         android:text="@string/msg_confirmar_email1"
-        android:textAlignment="center"
-        android:textColor="@color/roxo"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,63 +59,53 @@
 
     <TextView
         android:id="@+id/text_instrucao2"
+        android:theme="@style/textoRoxoLalezar"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="12dp"
-        android:fontFamily="@font/lalezar"
         android:text="@string/msg_confirmar_email2"
-        android:textAlignment="center"
-        android:textColor="@color/roxo"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_instrucao1" />
 
-    <TextView
-        android:id="@+id/text_reenviar_email"
-        android:layout_width="245dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/josefin_sans_semibold"
-        android:text="@string/msg_reenviar_email"
-        android:textAlignment="viewStart"
-        android:textColor="@color/roxo"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_enviar" />
-
-    <TextView
-        android:id="@+id/text_aqui"
-        android:layout_width="52dp"
-        android:layout_height="27dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="52dp"
-        android:clickable="true"
-        android:fontFamily="@font/josefin_sans_semibold"
-        android:text="@string/action_reenviar_email"
-        android:onClick="onClick"
-        android:textAlignment="viewEnd"
-        android:textColor="@color/laranja1"
-        android:textSize="20sp"
+    <RelativeLayout
+        android:id="@+id/layout_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/text_reenviar_email"
-        app:layout_constraintTop_toBottomOf="@+id/btn_enviar" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toBottomOf="@+id/btn_enviar">
+
+        <TextView
+            android:id="@+id/text_reenviar_email"
+            android:layout_width="245dp"
+            android:layout_height="28dp"
+            android:text="@string/msg_reenviar_email"
+            android:theme="@style/textoRoxoJosefin" />
+
+        <TextView
+            android:id="@+id/text_aqui"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_reenviar_email"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/action_aqui"
+            android:theme="@style/textoLaranjaCAPS"
+            tools:ignore="OnClick" />
+    </RelativeLayout>
 
     <Button
         android:id="@+id/btn_enviar"
+        android:theme="@style/botaoLaranja"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:layout_marginTop="12dp"
-        android:backgroundTint="@color/laranja1"
-        android:fontFamily="@font/lalezar"
-        android:text="Enviar"
-        android:textAllCaps="false"
-        android:textSize="20sp"
+        android:text="@string/action_enviar"
+        android:textColor="@color/branco_claro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -125,19 +113,13 @@
 
     <EditText
         android:id="@+id/plain_text_codigo_confirmacao_input"
+        android:theme="@style/campoDeTexto"
         android:layout_width="280dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="12dp"
+        android:layout_height="50dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="12dp"
         android:background="@drawable/fundo_botao"
-        android:backgroundTint="@color/branco_escuro"
-        android:ems="10"
-        android:fontFamily="@font/arimo"
         android:hint="  código de confirmação"
         android:inputType="number"
-        android:textAlignment="textStart"
-        android:textColor="@color/cinza_escuro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
