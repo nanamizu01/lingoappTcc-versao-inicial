@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout-land/activity_pagina_inicial.xml" value="0.1171875" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_perfil_estudante.xml" value="0.21" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_perfil_professor.xml" value="0.21" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_atividades_aluno.xml" value="0.25" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_atividades_aluno2.xml" value="0.14285714285714285" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_atividades_professor.xml" value="0.14285714285714285" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_cadastro_estudante1.xml" value="0.33" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_editar_ativ.xml" value="0.14285714285714285" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_pag_tarefa_aluno2.xml" value="0.15625" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_pagina_inicial.xml" value="0.14285714285714285" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_turma_selecionada.xml" value="0.14285714285714285" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/lista_item_professor.xml" value="0.14285714285714285" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoapp1/app/src/main/res/layout-land/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoapp1/app/src/main/res/layout/activity_cadastro_estudante1.xml" value="0.33" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoapp1/app/src/main/res/layout/activity_cadastro_estudante2.xml" value="0.18614130434782608" />

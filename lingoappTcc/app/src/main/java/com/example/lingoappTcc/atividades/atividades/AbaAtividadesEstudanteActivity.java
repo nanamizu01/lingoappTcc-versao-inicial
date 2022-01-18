@@ -33,11 +33,11 @@ public class AbaAtividadesEstudanteActivity extends AppCompatActivity {
 
         tab_aba_atividades_estudante.setupWithViewPager(vp_aba_atividades_estudante);
 
-        VPAdapter vpAAbaAtividadesE = new VPAdapter(getSupportFragmentManager(),
-                FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-        vpAAbaAtividadesE.adicionarFragmento(new AtividadesPendentesFragment(),"Pendentes");
-        vpAAbaAtividadesE.adicionarFragmento(new AtividadesDisponiveisEstudanteFragment(),"Disponíveis");
-        vp_aba_atividades_estudante.setAdapter(vpAAbaAtividadesE);
+        //VPAdapter vpAAbaAtividadesE = new VPAdapter(getSupportFragmentManager(),
+          //      FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+        //vpAAbaAtividadesE.adicionarFragmento(new AtividadesPendentesFragment(),"Pendentes");
+        //vpAAbaAtividadesE.adicionarFragmento(new AtividadesDisponiveisEstudanteFragment(),"Disponíveis");
+        //vp_aba_atividades_estudante.setAdapter(vpAAbaAtividadesE);
 
         BottomNavigationView menu_inferior = findViewById(R.id.menu_inferior);
         menu_inferior.setSelectedItemId(R.id.nav_atividades);

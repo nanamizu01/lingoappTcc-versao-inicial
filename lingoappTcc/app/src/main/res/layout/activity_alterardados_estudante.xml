@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior" />
 
     <EditText
-        android:id="@+id/plain_text_nome_input"
+        android:id="@+id/campo_nome_estudante"
         android:layout_width="310dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
@@ -83,10 +83,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/plain_text_nome_input" />
+        app:layout_constraintTop_toBottomOf="@+id/campo_nome_estudante" />
 
     <EditText
-        android:id="@+id/plain_text_sobrenome_input"
+        android:id="@+id/campo_sobrenome_estudante"
         android:layout_width="310dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
@@ -110,7 +110,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/plain_text_sobrenome_input" />
+        app:layout_constraintTop_toBottomOf="@+id/campo_sobrenome_estudante" />
 
     <EditText
         android:id="@+id/plain_text_email_input"
