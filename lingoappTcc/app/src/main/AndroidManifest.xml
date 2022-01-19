@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lingoapp1">
         <activity
+            android:name=".ConvidarEstudanteDialog"
+            android:exported="false" />
+        <activity
             android:name=".atividades.turmas.AtividadesTurmaSelecionadaActivity"
             android:exported="true" />
         <activity
