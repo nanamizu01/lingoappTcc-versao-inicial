@@ -40,11 +40,11 @@ public class TurmaSelecionadaEActivity extends AppCompatActivity {
 
         tab_turma_selecionadaE.setupWithViewPager(vp_turma_selecionadaE);
 
-        VPAdapter vpAturmaselecionadaE = new VPAdapter(getSupportFragmentManager(),
-                FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-        vpAturmaselecionadaE.adicionarFragmento(new TurmaAtividadesFragment(),"Atividades");
-        vpAturmaselecionadaE.adicionarFragmento(new TurmaParticipantesFragment(),"Participantes");
-        vp_turma_selecionadaE.setAdapter(vpAturmaselecionadaE);
+        //VPAdapter vpAturmaselecionadaE = new VPAdapter(getSupportFragmentManager(),
+          //      FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+        //vpAturmaselecionadaE.adicionarFragmento(new TurmaAtividadesFragment(),"Atividades");
+        //vpAturmaselecionadaE.adicionarFragmento(new TurmaParticipantesFragment(),"Participantes");
+        //vp_turma_selecionadaE.setAdapter(vpAturmaselecionadaE);
     }
 
     private void btn_voltarActivity() {

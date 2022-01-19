@@ -60,7 +60,7 @@
         android:layout_marginTop="18dp"
         android:layout_marginEnd="12dp"
         android:fontFamily="@font/lalezar"
-        android:text="@string/action_enunciado2_Friends"
+        android:text="@string/action_enunciado1_Friends"
         android:textAlignment="viewStart"
         android:textColor="@color/cinza_escuro"
         android:textSize="20sp"
