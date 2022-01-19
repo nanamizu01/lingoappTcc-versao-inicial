@@ -113,6 +113,19 @@
         <item name="android:textSize">20sp</item>
     </style>
 
+    <style name="subtítuloLaranja">
+        <item name="android:fontFamily">arimo</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/laranja1</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="textoPretoArimo">
+        <item name="android:fontFamily">arimo</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
     <style name="botaoVoltar">
         <item name="android:src">@drawable/ic_round_expand_less_24</item>
         <item name="android:backgroundTint">@android:color/transparent</item>

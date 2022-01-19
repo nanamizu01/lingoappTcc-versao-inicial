@@ -10,6 +10,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.lingoappTcc.R;
+import com.example.lingoappTcc.VPAdapter;
 import com.example.lingoappTcc.fragmentos.TurmaAtividadesFragment;
 import com.example.lingoappTcc.fragmentos.TurmaParticipantesFragment;
 import com.google.android.material.tabs.TabLayout;

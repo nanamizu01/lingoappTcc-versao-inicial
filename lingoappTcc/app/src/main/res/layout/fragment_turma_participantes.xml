@@ -13,16 +13,13 @@
 
         <TextView
             android:id="@+id/text_professor"
+            android:theme="@style/subtítuloLaranja"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
             android:layout_marginTop="80dp"
             android:layout_marginEnd="12dp"
-            android:fontFamily="@font/arimo"
             android:text="Professores:"
-            android:textColor="@color/laranja1"
-            android:textSize="25sp"
-            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent"
@@ -35,12 +32,26 @@
             android:layout_marginStart="30dp"
             android:layout_marginEnd="30dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.43"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_professor"
             tools:listitem="@layout/lista_item_professor">
 
         </ListView>
+
+        <TextView
+            android:id="@+id/text_estudante"
+            android:theme="@style/subtítuloLaranja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="12dp"
+            android:text="Estudantes"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

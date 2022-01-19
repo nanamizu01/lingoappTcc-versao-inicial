@@ -13,6 +13,7 @@ public class VPAdapter extends FragmentPagerAdapter {
     private final ArrayList<Fragment> fragmentArrayList = new ArrayList<>();
     private final ArrayList<String> fragmentTitle = new ArrayList<>();
 
+
     public VPAdapter(@NonNull FragmentManager fm, int behavior) {
         super(fm, behavior);
     }
@@ -29,6 +30,7 @@ public class VPAdapter extends FragmentPagerAdapter {
     }
 
     public void adicionarFragmento(Fragment fragment, String title){
+
         fragmentArrayList.add(fragment);
         fragmentTitle.add(title);
     }

@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.example.lingoappTcc.R;
+import com.example.lingoappTcc.VPAdapter;
 import com.example.lingoappTcc.fragmentos.TurmaAtividadesFragment;
 import com.example.lingoappTcc.fragmentos.TurmaParticipantesFragment;
 import com.google.android.material.tabs.TabLayout;
