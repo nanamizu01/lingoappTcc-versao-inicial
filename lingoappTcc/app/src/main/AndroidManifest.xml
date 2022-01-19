@@ -106,9 +106,6 @@
             android:name=".atividades.perfil.AlterarDadosProfessorActivity"
             android:exported="true" />
         <activity
-            android:name=".atividades.perfil.ConquistasEstudanteActivity"
-            android:exported="true" />
-        <activity
             android:name=".atividades.perfil.HistoricoAtividadesEstudanteActivity"
             android:exported="true" />
 

@@ -19,7 +19,6 @@ public class AbaPerfilEstudanteActivity extends AppCompatActivity {
 
     private Button btn_editar_dados;
     private Button btn_historico_atividades;
-    private Button btn_conquistas;
     private Button btn_sair;
 
     @Override
@@ -30,7 +29,6 @@ public class AbaPerfilEstudanteActivity extends AppCompatActivity {
 
         btn_editar_dados = (Button) findViewById(R.id.btn_editar_dados);
         btn_historico_atividades = (Button) findViewById(R.id.btn_historico_atividades);
-        btn_conquistas = (Button) findViewById(R.id.btn_conquistas);
         btn_sair = (Button) findViewById(R.id.btn_sair);
 
         btn_editar_dados.setOnClickListener(new View.OnClickListener() {
@@ -44,13 +42,6 @@ public class AbaPerfilEstudanteActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 btn_historico_atividadesActivity();
-            }
-        });
-
-        btn_conquistas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                btn_conquistasActivity();
             }
         });
 
@@ -87,10 +78,6 @@ public class AbaPerfilEstudanteActivity extends AppCompatActivity {
 
     private void btn_sairActivity() {
         startActivity(new Intent(this, PaginaInicialActivity.class));
-    }
-
-    private void btn_conquistasActivity() {
-        startActivity(new Intent(this, ConquistasEstudanteActivity.class));
     }
 
     private void btn_historico_atividadesActivity() {

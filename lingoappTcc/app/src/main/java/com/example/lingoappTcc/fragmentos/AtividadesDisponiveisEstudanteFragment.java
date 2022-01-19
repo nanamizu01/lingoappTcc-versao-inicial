@@ -22,9 +22,9 @@ public class AtividadesDisponiveisEstudanteFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View fragmento = inflater.inflate(R.layout.fragment_atividades_disponiveis_estudante, container, false);
+        View view = inflater.inflate(R.layout.fragment_atividades_disponiveis_estudante, container, false);
 
-        btn_atividade_mus1 = fragmento.findViewById(R.id.btn_atividade_mus1);
+        btn_atividade_mus1 = view.findViewById(R.id.btn_atividade_mus1);
 
         try {
             btn_atividade_mus1.setOnClickListener(new View.OnClickListener() {
@@ -36,7 +36,7 @@ public class AtividadesDisponiveisEstudanteFragment extends Fragment {
         }catch(Exception exception){
 
         }
-        return fragmento;
+        return view;
     }
 
     private void btn_atividade_mus1Metodo() {

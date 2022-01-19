@@ -128,10 +128,10 @@
         android:layout_alignParentBottom="true"
         android:background="@color/roxo"
         android:elevation="2dp"
+        app:menu="@menu/menu_navegacao_inferior"
         app:itemIconSize="35dp"
-        app:itemIconTint="@drawable/item_selector"
-        app:itemTextColor="@drawable/item_selector"
         app:labelVisibilityMode="unlabeled"
-        app:menu="@menu/menu_navegacao_inferior" />
+        app:itemTextColor="@drawable/item_selector"
+        app:itemIconTint="@drawable/item_selector"/>
 
 </RelativeLayout>

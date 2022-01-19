@@ -119,22 +119,6 @@
                 app:layout_constraintTop_toBottomOf="@+id/btn_editar_dados" />
 
             <Button
-                android:id="@+id/btn_conquistas"
-                android:theme="@style/botaoLaranja"
-                android:layout_width="wrap_content"
-                android:layout_height="60dp"
-                android:layout_marginTop="8dp"
-                android:text="@string/action_conquistas"
-                android:textColor="@color/branco_claro"
-                app:icon="@android:drawable/btn_star_big_on"
-                app:iconSize="25dp"
-                app:iconTint="@color/branco_claro"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btn_historico_atividades" />
-
-            <Button
                 android:id="@+id/btn_sair"
                 android:theme="@style/botaoLaranja"
                 android:layout_width="wrap_content"
@@ -148,7 +132,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btn_conquistas" />
+                app:layout_constraintTop_toBottomOf="@+id/btn_historico_atividades" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

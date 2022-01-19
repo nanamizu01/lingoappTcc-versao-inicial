@@ -71,10 +71,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/campo_data_nascimento_estudante" />
+        app:layout_constraintTop_toBottomOf="@+id/plain_text_matricula_input" />
 
     <EditText
-        android:id="@+id/campo_nome_estudante"
+        android:id="@+id/plain_text_nome_input"
         android:theme="@style/campoDeTexto"
         android:layout_width="310dp"
         android:layout_height="50dp"
@@ -88,7 +88,7 @@
         app:layout_constraintTop_toBottomOf="@+id/text_preencher_dados" />
 
     <EditText
-        android:id="@+id/campo_sobrenome_estudante"
+        android:id="@+id/plain_text_sobrenome_input"
         android:layout_width="310dp"
         android:layout_height="50dp"
         android:layout_marginTop="15dp"
@@ -99,10 +99,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/campo_nome_estudante" />
+        app:layout_constraintTop_toBottomOf="@+id/plain_text_nome_input" />
 
     <EditText
-        android:id="@+id/campo_data_nascimento_estudante"
+        android:id="@+id/plain_text_matricula_input"
         android:layout_width="310dp"
         android:layout_height="50dp"
         android:layout_marginTop="15dp"
@@ -113,6 +113,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/campo_sobrenome_estudante" />
+        app:layout_constraintTop_toBottomOf="@+id/plain_text_sobrenome_input" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
