@@ -59,12 +59,13 @@
         app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior" />
 
     <EditText
-        android:id="@+id/plain_text_nome_input"
+        android:id="@+id/campo_nome_estudante"
         android:layout_width="310dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/fundo_botao"
-        android:hint="  nome"
+        android:hint="@string/msg_nome"
+        android:textColor="@color/black"
         android:inputType="textPersonName"
         android:theme="@style/campoDeTexto"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,15 +84,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/plain_text_nome_input" />
+        app:layout_constraintTop_toBottomOf="@+id/campo_nome_estudante" />
 
     <EditText
-        android:id="@+id/plain_text_sobrenome_input"
+        android:id="@+id/campo_sobrenome_estudante"
         android:layout_width="310dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/fundo_botao"
-        android:hint="  sobrenome"
+        android:hint="@string/msg_sobrenome"
+        android:textColor="@color/black"
         android:inputType="textPersonName"
         android:theme="@style/campoDeTexto"
         app:layout_constraintEnd_toEndOf="parent"
@@ -110,15 +112,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/plain_text_sobrenome_input" />
+        app:layout_constraintTop_toBottomOf="@+id/campo_sobrenome_estudante" />
 
     <EditText
-        android:id="@+id/plain_text_email_input"
+        android:id="@+id/campo_email_estudante"
         android:layout_width="310dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/fundo_botao"
-        android:hint="  e-mail"
+        android:hint="@string/msg_email"
+        android:textColor="@color/black"
         android:inputType="textEmailAddress"
         android:theme="@style/campoDeTexto"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,15 +140,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/plain_text_email_input" />
+        app:layout_constraintTop_toBottomOf="@+id/campo_email_estudante" />
 
     <EditText
-        android:id="@+id/plain_text_senha_input"
+        android:id="@+id/campo_senha_estudante"
         android:layout_width="310dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/fundo_botao"
-        android:hint="  senha"
+        android:hint="@string/msg_senha"
+        android:textColor="@color/black"
         android:inputType="textPassword"
         android:theme="@style/campoDeTexto"
         app:layout_constraintEnd_toEndOf="parent"
@@ -165,7 +169,7 @@
         app:layout_constraintEnd_toStartOf="@+id/btn_salvar"
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/plain_text_senha_input" />
+        app:layout_constraintTop_toBottomOf="@+id/campo_senha_estudante" />
 
     <Button
         android:id="@+id/btn_salvar"

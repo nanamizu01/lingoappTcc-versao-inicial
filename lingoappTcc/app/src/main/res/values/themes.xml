@@ -47,6 +47,7 @@
     <style name="campoDeTexto">
         <item name="android:backgroundTint">@color/branco_escuro</item>
         <item name="android:fontFamily">@font/arimo</item>
+        <item name="android:padding">10dp</item>
         <item name="android:textAlignment">textStart</item>
         <item name="android:textColor">@color/cinza_escuro</item>
         <item name="android:ems">10</item>

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="300dp"
-    android:layout_height="340dp"
+    android:layout_height="250dp"
     android:background="@drawable/fundo_botao"
     android:padding="10dp"
     android:layout_gravity="center">
@@ -13,26 +13,25 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/text_convidar_estudante1"
+            android:id="@+id/text_retirar_estudante1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/title_convidar_estudante1"
+            android:text="@string/title_retirar_estudante1"
             android:theme="@style/tituloDoPopup"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/text_convidar_estudante2"
+            android:id="@+id/text_retirar_estudante2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/title_convidar_estudante2"
+            android:text="@string/title_retirar_estudante2"
             android:theme="@style/tituloDoPopup"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_convidar_estudante1" />
+            app:layout_constraintTop_toBottomOf="@id/text_retirar_estudante1" />
 
         <ImageButton
             android:id="@+id/btn_fechar"
@@ -45,47 +44,34 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/text_instrucao"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/msg_instrucao_convidar_estudante"
-            android:textSize="18sp"
-            android:theme="@style/textoRoxoLalezar"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_convidar_estudante2" />
-
         <EditText
-            android:id="@+id/plain_text_email_input"
+            android:id="@+id/plain_text_nome_estudante_input"
             android:layout_width="250dp"
             android:layout_height="50dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/fundo_botao"
             android:backgroundTint="@color/branco_claro"
-            android:hint="@string/msg_email_estudante"
+            android:hint="@string/msg_nome_estudante"
             android:textColor="@color/black"
-            android:inputType="textEmailAddress"
+            android:inputType="text"
             android:theme="@style/campoDeTexto"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_instrucao" />
+            app:layout_constraintTop_toBottomOf="@+id/text_retirar_estudante2" />
 
         <Button
-            android:id="@+id/btn_convidar"
-            android:theme="@style/botaoLaranja"
+            android:id="@+id/btn_retirar"
             android:layout_width="120dp"
             android:layout_height="60dp"
             android:layout_marginTop="16dp"
-            android:text="@string/action_convidar"
+            android:text="@string/action_retirar"
             android:textColor="@color/branco_claro"
-            android:textSize="19sp"
+            android:theme="@style/botaoLaranja"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/plain_text_email_input" />
+            app:layout_constraintTop_toBottomOf="@+id/plain_text_nome_estudante_input" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

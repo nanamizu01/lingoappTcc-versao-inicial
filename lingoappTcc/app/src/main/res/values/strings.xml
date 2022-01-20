@@ -16,6 +16,10 @@
     <string name="title_gerenciar_turma">Gerenciar Turma</string>
     <string name="title_convidar_estudante1">Convidar</string>
     <string name="title_convidar_estudante2">Estudante</string>
+    <string name="title_editar_turma">Editar Turma</string>
+    <string name="title_retirar_estudante1">Retirar</string>
+    <string name="title_retirar_estudante2">Estudante</string>
+    <string name="title_aviso">Aviso</string>
 
     <!-- mensagens -->
     <string name="msg_sou_novo_quero_me">Sou novo, quero me </string>
@@ -30,14 +34,25 @@
     <string name="msg_recuperar_senha2">Digite no campo abaixo o mesmo e-mail que você usou no momento de cadastro da sua conta:</string>
     <string name="msg_nome_professor">Nome Sobrenome</string>
     <string name="msg_nome_estudante">Nome Sobrenome</string>
-    <string name="msg_email_professor">professor@email.com</string>
-    <string name="msg_email_estudante">estudante@email.com</string>
+    <string name="msg_ex_email_professor">professor@email.com</string>
+    <string name="msg_ex_email_estudante">estudante@email.com</string>
     <string name="msg_digitar_nome">Nome:</string>
     <string name="msg_digitar_sobrenome">Sobrenome:</string>
     <string name="msg_digitar_senha">Senha:</string>
     <string name="msg_digitar_email">E-mail:</string>
     <string name="msg_instrucao_criar_atividade">Agora preencha com os dados da atividade:</string>
     <string name="msg_instrucao_convidar_estudante">Digite o endereço de e-mail do estudante para enviar um convite para participar da turma</string>
+    <string name="msg_nome">nome</string>
+    <string name="msg_sobrenome">sobrenome</string>
+    <string name="msg_data_nasc">data de nascimento DD/MM/AAAA</string>
+    <string name="msg_email">e-mail</string>
+    <string name="msg_senha">senha</string>
+    <string name="msg_email_estudante">e-mail do estudante</string>
+    <string name="msg_cod_turma">código da turma</string>
+    <string name="msg_cod_verificacao">código de verificação</string>
+    <string name="msg_nome_turma_anterior">nome da turma anterior</string>
+    <string name="msg_senha_turma_anterior">senha da turma anterior</string>
+    <string name="msg_campos_invalidos">Há campos inválidos ou em branco!</string>
 
     <!-- separando em ordem-->
     <string name="msg_instrucao_participar_turma">Digite, no campo abaixo, o código da turma que deseja participar:</string>
@@ -64,6 +79,8 @@
     <string name="action_retirar_estudante">Retirar Estudante</string>
     <string name="action_excluir_turma">Excluir Turma</string>
     <string name="action_convidar">Convidar</string>
+    <string name="action_retirar">Retirar</string>
+    <string name="action_ok">OK</string>
 
     <!-- separando em ordem-->
     <string name="action_enunciado1_Friends"> 1. A frase "You were my first kiss with Rachel?", dita pelo personagem Ross, é um erro gramatical proposital? Você consegue identificar o porquê das perguntas com a ordem afirmativa (sujeito + verbo) nos exemplos citados? </string>

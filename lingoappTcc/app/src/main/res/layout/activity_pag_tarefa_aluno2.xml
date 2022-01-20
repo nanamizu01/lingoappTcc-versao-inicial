@@ -5,39 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/branco_claro"
-    tools:context=".atividades.cadastroelogin.CadastroProfessor1Activity">
+    tools:context=".PagTarefaAluno2Activity">
 
     <FrameLayout
         android:id="@+id/frame_barra_superior"
-        android:theme="@style/barraSuperiorVoltar"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_width="411dp"
+        android:layout_height="93dp"
+        android:background="@drawable/barra_superior_voltar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
     </FrameLayout>
-
-    <ImageButton
-        android:id="@id/btn_voltar"
-        android:theme="@style/botaoVoltar"
-        android:layout_width="50dp"
-        android:layout_height="80dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
     <TextView
-        android:id="@+id/text_titulo_atividade"
-        android:theme="@style/tituloDaPagina"
+        android:id="@+id/text_pag_tarefa_aluno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="@string/title_titulo_atividade"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/josefin_sans_semibold"
+        android:text="ATIVIDADES"
+        android:textAlignment="center"
+        android:textColor="@color/branco_claro"
+        android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/frame_barra_superior" />
-
     <TextView
         android:id="@+id/text_titulo_ativ"
         android:layout_width="320dp"
@@ -45,21 +38,20 @@
         android:layout_marginTop="44dp"
         android:layout_marginEnd="50dp"
         android:fontFamily="@font/arimo"
-        android:text="1. Enunciado da"
+        android:text="Friends"
         android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         android:textColor="@color/roxo"
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior" />
-
     <TextView
         android:id="@+id/text_enunciado_ativ"
-        android:layout_width="358dp"
-        android:layout_height="116dp"
+        android:layout_width="351dp"
+        android:layout_height="66dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="18dp"
         android:layout_marginEnd="12dp"
@@ -67,18 +59,16 @@
         android:text="@string/action_enunciado1_Friends"
         android:textAlignment="viewStart"
         android:textColor="@color/cinza_escuro"
-        android:textSize="16sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_titulo_ativ" />
-
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_voltar"
         android:layout_width="116dp"
         android:layout_height="49dp"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="24dp"
         android:layout_marginEnd="255dp"
         android:layout_marginBottom="372dp"
         android:backgroundTint="@color/laranja1"
@@ -91,24 +81,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_enunciado_ativ" />
-
     <Button
-        android:id="@+id/btn_atribuir"
-        android:layout_width="114dp"
-        android:layout_height="56dp"
+        android:id="@+id/btn_enviar"
+        android:layout_width="106dp"
+        android:layout_height="50dp"
         android:layout_marginStart="95dp"
-        android:layout_marginTop="25dp"
         android:layout_marginEnd="44dp"
         android:layout_marginBottom="359dp"
         android:backgroundTint="@color/laranja1"
         android:fontFamily="@font/lalezar"
-        android:text="Atribuir a turma"
+        android:text="Enviar"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/btn_voltar"
         app:layout_constraintTop_toBottomOf="@+id/text_enunciado_ativ"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.409" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
