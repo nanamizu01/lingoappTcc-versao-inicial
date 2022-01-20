@@ -40,11 +40,11 @@ public class AtividadesTurmaSelecionadaActivity extends AppCompatActivity {
 
         tab_atividade_selecionada.setupWithViewPager(vp_atividade_selecionada);
 
-        /*VPAdapter vpAAtividadeSelecionada = new VPAdapter(getSupportFragmentManager(),
+        VPAdapter vpAAtividadeSelecionada = new VPAdapter(getSupportFragmentManager(),
                 FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         vpAAtividadeSelecionada.adicionarFragmento(new AtividadesPendentesFragment(),"Atividades");
         vpAAtividadeSelecionada.adicionarFragmento(new AtividadesCorrigidasFragment(),"Participantes");
-        vp_atividade_selecionada.setAdapter(vpAAtividadeSelecionada);*/
+        vp_atividade_selecionada.setAdapter(vpAAtividadeSelecionada);
 
     }
 

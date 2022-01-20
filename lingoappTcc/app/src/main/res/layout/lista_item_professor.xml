@@ -20,7 +20,7 @@
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="10dp"
-                android:src="@drawable/ic_launcher_background"/>
+                android:src="@drawable/avatar_professor"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
