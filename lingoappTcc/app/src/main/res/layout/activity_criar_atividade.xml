@@ -47,69 +47,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/frame_barra_superior" />
 
-    <TextView
-        android:id="@+id/text_preencher_dados_atividade"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="@string/msg_instrucao_criar_atividade"
-        android:textAlignment="textStart"
-        android:theme="@style/textoRoxoLalezar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior" />
-
-    <EditText
-        android:id="@+id/plain_text_titulo_input"
-        android:layout_width="340dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/fundo_botao"
-        android:hint="   titulo da atividade"
-        android:inputType="text"
-        android:theme="@style/campoDeTexto"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_preencher_dados_atividade" />
-
-    <Button
-        android:id="@+id/btn_cancelar"
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="20dp"
-        android:text="@string/action_cancelar"
-        android:textColor="@color/branco_claro"
-        android:theme="@style/botaoLaranja"
-        app:layout_constraintEnd_toStartOf="@+id/btn_enviar"
-        app:layout_constraintHorizontal_chainStyle="spread"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_adicionar_questao" />
-
-    <Button
-        android:id="@+id/btn_enviar"
-        android:layout_width="120dp"
-        android:layout_height="60dp"
-        android:text="@string/action_enviar"
-        android:textColor="@color/branco_claro"
-        android:theme="@style/botaoRoxo"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_cancelar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_cancelar" />
-
-    <Button
-        android:id="@+id/btn_adicionar_questao"
+    <RelativeLayout
+        android:id="@+id/layout_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="Adicionar questão"
-        android:theme="@style/botaoRoxo"
+        android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/plain_text_titulo_input" />
+        app:layout_constraintTop_toBottomOf="@+id/frame_barra_superior">
+
+        <EditText
+            android:id="@+id/campo_titulo_atividade"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:hint="@string/title_titulo_atividade"
+            android:inputType="text"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:theme="@style/campoDeTexto" />
+
+        <ImageButton
+            android:id="@+id/btn_adicionar_questao"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/campo_titulo_atividade"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:theme="@style/botaoAdicionar" />
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

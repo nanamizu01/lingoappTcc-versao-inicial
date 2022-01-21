@@ -53,7 +53,7 @@
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_cadastro_professor2.xml" value="0.33" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_confirmar_email.xml" value="0.25" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_conquistas_estudante.xml" value="0.33" />
-        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_criar_atividade.xml" value="0.25" />
+        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_criar_atividade.xml" value="0.33" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_criar_turma_professor.xml" value="0.22" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_desempenho_estudante.xml" value="0.18478260869565216" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_editar_ativ.xml" value="0.20416666666666666" />
@@ -95,6 +95,7 @@
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/fragment_turma_selecionada.xml" value="0.33" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/fragment_turmas.xml" value="0.25" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/lista_item.xml" value="0.5032437442075997" />
+        <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/lista_item_criar_questao.xml" value="0.33" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/lista_item_professor.xml" value="0.25" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/menu_navegacao_inferior.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoappTcc/app/src/main/res/menu/menu_navegacao_inferior.xml" value="0.20416666666666666" />

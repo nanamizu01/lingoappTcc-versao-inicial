@@ -154,6 +154,14 @@
         <item name="android:contentDescription">@string/desc_botao_fechar</item>
     </style>
 
+    <style name="botaoAdicionar">
+        <item name="android:src">@drawable/ic_round_add_circle_24</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:scaleX">2.5</item>
+        <item name="android:scaleY">2.5</item>
+        <item name="android:contentDescription">@string/desc_botao_voltar</item>
+    </style>
+
     <style name="barraSuperiorVoltar">
         <item name="android:background">@drawable/barra_superior_voltar</item>
     </style>
