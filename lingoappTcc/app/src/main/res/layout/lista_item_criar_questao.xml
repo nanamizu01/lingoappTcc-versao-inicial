@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-   android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -8,9 +10,41 @@
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:background="@drawable/fundo_botao"
-        android:padding="16dp">
+        android:padding="12dp">
 
-        //fazer exemplo de criação de questão
+        <EditText
+            android:id="@+id/campo_tipo_questao"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:hint="@string/msg_tipo_questao"
+            android:background="@drawable/fundo_botao"
+            android:backgroundTint="@color/branco_claro"
+            android:inputType="textAutoComplete"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:theme="@style/campoDeTexto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/campo_questao"
+            android:layout_width="336dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:hint="@string/msg_enunciado_questao"
+            android:background="@drawable/fundo_botao"
+            android:backgroundTint="@color/branco_claro"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:theme="@style/campoDeTexto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/campo_tipo_questao" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

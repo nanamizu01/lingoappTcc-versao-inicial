@@ -64,8 +64,8 @@
             android:layout_marginEnd="20dp"
             android:hint="@string/title_titulo_atividade"
             android:inputType="text"
-            android:textSize="24dp"
             android:textColor="@color/black"
+            android:textSize="24dp"
             android:theme="@style/campoDeTexto" />
 
         <ImageButton

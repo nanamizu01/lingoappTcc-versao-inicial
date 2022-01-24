@@ -101,5 +101,7 @@
     <string name="msg_nome_turma">nome da turma</string>
     <string name="msg_senha_turma">senha da turma</string>
     <string name="title_criar">Criar</string>
+    <string name="msg_enunciado_questao">enunciado da questão</string>
+    <string name="msg_tipo_questao">tipo de questão</string>
 
 </resources>
