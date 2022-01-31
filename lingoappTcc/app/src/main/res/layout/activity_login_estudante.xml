@@ -48,7 +48,7 @@
     </androidx.constraintlayout.widget.Group>
 
     <EditText
-        android:id="@+id/plain_text_email_input"
+        android:id="@+id/campo_email_estudante"
         android:theme="@style/campoDeTexto"
         android:layout_width="310dp"
         android:layout_height="50dp"
@@ -62,7 +62,7 @@
         app:layout_constraintTop_toBottomOf="@id/frame_barra_superior" />
 
     <EditText
-        android:id="@+id/plain_text_senha_input"
+        android:id="@+id/campo_senha_estudante"
         android:theme="@style/campoDeTexto"
         android:layout_width="310dp"
         android:layout_height="50dp"
@@ -73,7 +73,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/plain_text_email_input" />
+        app:layout_constraintTop_toBottomOf="@+id/campo_email_estudante" />
 
     <Button
         android:id="@+id/btn_entrar"
@@ -86,7 +86,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/plain_text_senha_input" />
+        app:layout_constraintTop_toBottomOf="@+id/campo_senha_estudante" />
 
     <RelativeLayout
         android:id="@+id/layout_esqueceu_senha"

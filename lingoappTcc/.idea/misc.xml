@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout-land/activity_pagina_inicial.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_atividades_estudante.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_perfil_estudante.xml" value="0.29375" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_aba_perfil_professor.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_cadastro_estudante1.xml" value="0.25" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_cadastro_estudante2.xml" value="0.25" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_cadastro_professor1.xml" value="0.25" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_cadastro_professor2.xml" value="0.25" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_login_estudante.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/Adrielli/AndroidStudioProjects/lingoappTcc/app/src/main/res/layout/activity_pagina_inicial.xml" value="0.17844202898550723" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoapp1/app/src/main/res/layout-land/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoapp1/app/src/main/res/layout/activity_cadastro_estudante1.xml" value="0.33" />
         <entry key="..\:/Users/noot/AndroidStudioProjects/lingoapp1/app/src/main/res/layout/activity_cadastro_estudante2.xml" value="0.18614130434782608" />

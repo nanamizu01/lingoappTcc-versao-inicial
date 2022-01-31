@@ -5,8 +5,10 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.lingoappTcc.R;
@@ -14,22 +16,31 @@ import com.example.lingoappTcc.atividades.atividades.AbaAtividadesEstudanteActiv
 import com.example.lingoappTcc.atividades.cadastroelogin.PaginaInicialActivity;
 import com.example.lingoappTcc.atividades.turmas.AbaTurmasEstudanteActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
 
 public class AbaPerfilEstudanteActivity extends AppCompatActivity {
 
     private Button btn_editar_dados;
     private Button btn_historico_atividades;
     private Button btn_sair;
+    private TextView nomeEstudante;
+    private TextView emailEstudante;
+
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
+    String estudanteID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().hide();
         setContentView(R.layout.activity_aba_perfil_estudante);
 
-        btn_editar_dados = (Button) findViewById(R.id.btn_editar_dados);
-        btn_historico_atividades = (Button) findViewById(R.id.btn_historico_atividades);
-        btn_sair = (Button) findViewById(R.id.btn_sair);
+        getSupportActionBar().hide();
+        IniciarComponentes();
 
         btn_editar_dados.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,7 +59,10 @@ public class AbaPerfilEstudanteActivity extends AppCompatActivity {
         btn_sair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btn_sairActivity();
+                FirebaseAuth.getInstance().signOut();
+                Intent intent = new Intent(AbaPerfilEstudanteActivity.this, PaginaInicialActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -76,16 +90,43 @@ public class AbaPerfilEstudanteActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        String email = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+        estudanteID = FirebaseAuth.getInstance().getCurrentUser().getUid();
+
+        DocumentReference documentReference = db.collection("Estudantes").document(estudanteID);
+        documentReference.addSnapshotListener(new EventListener<DocumentSnapshot>() {
+            @Override
+            public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException error) {
+
+                if(documentSnapshot != null){
+                    nomeEstudante.setText(documentSnapshot.getString("Nome"));
+                    emailEstudante.setText(email);
+                }
+            }
+        });
+    }
+
+    private void IniciarComponentes(){
+        btn_editar_dados = (Button) findViewById(R.id.btn_editar_dados);
+        btn_historico_atividades = (Button) findViewById(R.id.btn_historico_atividades);
+        btn_sair = (Button) findViewById(R.id.btn_sair);
+        nomeEstudante = (TextView) findViewById(R.id.campo_nome_estudante);
+        emailEstudante = (TextView) findViewById(R.id.campo_email_estudante);
+    }
+
     private void btn_sairActivity() {
-        startActivity(new Intent(this, PaginaInicialActivity.class));
     }
 
     private void btn_historico_atividadesActivity() {
-        startActivity(new Intent(this, HistoricoAtividadesEstudanteActivity.class));
+        startActivity(new Intent(AbaPerfilEstudanteActivity.this, HistoricoAtividadesEstudanteActivity.class));
     }
 
     private void btn_editar_dadosActivity() {
-        startActivity(new Intent(this, AlterarDadosEstudanteActivity.class));
+        startActivity(new Intent(AbaPerfilEstudanteActivity.this, AlterarDadosEstudanteActivity.class));
     }
 
 }

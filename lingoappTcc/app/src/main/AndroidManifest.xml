@@ -31,13 +31,7 @@
             android:name=".atividades.cadastroelogin.CadastroEstudante1Activity"
             android:exported="true" />
         <activity
-            android:name=".atividades.cadastroelogin.CadastroEstudante2Activity"
-            android:exported="true" />
-        <activity
             android:name=".atividades.cadastroelogin.CadastroProfessor1Activity"
-            android:exported="true" />
-        <activity
-            android:name=".atividades.cadastroelogin.CadastroProfessor2Activity"
             android:exported="true" />
         <activity
             android:name=".atividades.cadastroelogin.ConfirmarEmailActivity"

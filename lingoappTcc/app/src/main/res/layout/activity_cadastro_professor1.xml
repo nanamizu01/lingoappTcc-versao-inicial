@@ -44,8 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:constraint_referenced_ids="btn_voltar, frame_barra_superior,
-        text_cadastro_professor" >
-    </androidx.constraintlayout.widget.Group>
+        text_cadastro_professor"></androidx.constraintlayout.widget.Group>
 
     <TextView
         android:id="@+id/text_preencher_dados"
@@ -66,15 +65,15 @@
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:layout_marginTop="24dp"
-        android:text="@string/action_proximo"
+        android:text="Próximo"
         android:textColor="@color/branco_claro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/plain_text_siape_input" />
+        app:layout_constraintTop_toBottomOf="@+id/campo_confirmar_senha_professor" />
 
     <EditText
-        android:id="@+id/plain_text_nome_input"
+        android:id="@+id/campo_nome_professor"
         android:theme="@style/campoDeTexto"
         android:layout_width="310dp"
         android:layout_height="50dp"
@@ -88,31 +87,45 @@
         app:layout_constraintTop_toBottomOf="@+id/text_preencher_dados" />
 
     <EditText
-        android:id="@+id/plain_text_sobrenome_input"
+        android:id="@+id/campo_email_professor"
         android:theme="@style/campoDeTexto"
         android:layout_width="310dp"
         android:layout_height="50dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/fundo_botao"
-        android:inputType="textPersonName"
-        android:hint="  sobrenome"
+        android:inputType="textEmailAddress"
+        android:hint="  e-mail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/plain_text_nome_input" />
+        app:layout_constraintTop_toBottomOf="@+id/campo_nome_professor" />
 
     <EditText
-        android:id="@+id/plain_text_siape_input"
+        android:id="@+id/campo_senha_professor"
         android:theme="@style/campoDeTexto"
         android:layout_width="310dp"
         android:layout_height="50dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/fundo_botao"
-        android:inputType="date"
-        android:hint="  data de nascimento (DD/MM/AAAA)"
+        android:inputType="textPassword"
+        android:hint="  senha"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/plain_text_sobrenome_input" />
+        app:layout_constraintTop_toBottomOf="@+id/campo_email_professor" />
+
+    <EditText
+        android:id="@+id/campo_confirmar_senha_professor"
+        android:theme="@style/campoDeTexto"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/fundo_botao"
+        android:inputType="textPassword"
+        android:hint="  confirmar senha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campo_senha_professor" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -25,7 +25,6 @@
     <string name="msg_sou_novo_quero_me">Sou novo, quero me </string>
     <string name="msg_cadastro">Que tipo de conta você quer criar?</string>
     <string name="msg_instrucao_cadastro1">Preencha os seguintes campos com os seus dados:</string>
-    <string name="msg_instrucao_cadastro2">Agora preencha com os dados de login:</string>
     <string name="msg_confirmar_email1">Enviamos uma mensagem para o seu endereço de e-mail para confirmar sua conta!</string>
     <string name="msg_confirmar_email2">Digite o código que você recebeu no campo abaixo:</string>
     <string name="msg_reenviar_email">Não recebeu o e-mail? Clique </string>
@@ -52,7 +51,6 @@
     <string name="msg_cod_verificacao">código de verificação</string>
     <string name="msg_nome_turma_anterior">nome da turma anterior</string>
     <string name="msg_senha_turma_anterior">senha da turma anterior</string>
-    <string name="msg_campos_invalidos">Há campos inválidos ou em branco!</string>
 
     <!-- separando em ordem-->
     <string name="msg_instrucao_participar_turma">Digite, no campo abaixo, o código da turma que deseja participar:</string>
