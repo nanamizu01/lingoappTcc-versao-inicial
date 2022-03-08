@@ -1,22 +1,31 @@
-java version: 17.0.1
---------------------
-Android Studio Arctic Fox | 2020.3.1 Patch 3
---------------------
-Build #AI-203.7717.56.2031.7784292, built on September 30, 2021
---------------------
-Runtime version: 11.0.10+0-b96-7249189 amd64
---------------------
-VM: OpenJDK 64-Bit Server VM by Oracle Corporation
---------------------
-Windows 10 10.0
---------------------
-GC: G1 Young Generation, G1 Old Generation
---------------------
-Memory: 1280M
---------------------
-Cores: 8
---------------------
-Registry: external.system.auto.import.disabled=true
---------------------
-Gradle build: 7.0.3
---------------------
+# **PROJETO:** LingoApp (Aplicativo de Aprendizagem da Língua Inglesa)
+
+## **INTEGRANTES DO GRUPO:**
+
+ Adrielli Aupt Souto Neto
+
+
+&nbsp;Heloisa de Moura da Silva
+
+
+&nbsp;Samara Naomi Takakua Komiyama
+
+## **ORIENTADOR:**
+
+ Anderson Nalevaiko Marques
+
+## **● REQUISITOS/INSTALAÇÕES NECESSÁRIAS**
+ ❖ Java 17.0.1 (Java SE 17 Archive Downloads)
+
+
+&nbsp;❖ Android Studio Arctic Fox | 2021.1.1 Patch 1 (Android Studio Bumblebee | 2021.1.1
+Patch 1 now available)
+
+
+&nbsp;❖ Firebase Google (Firebase)
+
+## **● LINGUAGEM DE PROGRAMAÇÃO**
+ ❖ Java
+
+## **● IDE UTILIZADA**
+ ❖ Android Studio
